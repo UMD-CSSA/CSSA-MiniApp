@@ -6,25 +6,6 @@ cloud.init({
   env: cloud.DYNAMIC_CURRENT_ENV
 })
 
-// 云函数入口函数
-exports.main = async (event, context) => {
-  console.log(event)
-  switch (event.action) {
-    case 'sendTemplateMessage': {
-      return sendTemplateMessage(event)
-    }
-    case 'getWXACode': {
-      return getWXACode(event)
-    }
-    case 'getOpenData': {
-      return getOpenData(event)
-    }
-    default: {
-      return
-    }
-  }
-}
-
 async function sendTemplateMessage(event) {
   const { OPENID } = cloud.getWXContext()
 
@@ -92,4 +73,23 @@ async function getOpenData(event) {
   return cloud.getOpenData({
     list: event.openData.list,
   })
+}
+
+// 云函数入口函数
+exports.main = async (event, context) => {
+  console.log(event)
+  switch (event.action) {
+    case 'sendTemplateMessage': {
+      return sendTemplateMessage(event)
+    }
+    case 'getWXACode': {
+      return getWXACode(event)
+    }
+    case 'getOpenData': {
+      return getOpenData(event)
+    }
+    default: {
+      return
+    }
+  }
 }
