@@ -1,4 +1,6 @@
-# CSSA Wechat MiniApp
+<h1 align="center">
+  <a href="https://github.com/SiyuanPengUMD/CSSA-MiniApp/">CSSA Wechat MiniApp</a>
+</h1>
 
 ![Codacy grade](https://api.codacy.com/project/badge/Grade/cad1ad9dc376430e811824f020b73250?isInternal=true) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/SiyuanPengUMD/CSSA-MiniApp.svg) ![GitHub issues](https://img.shields.io/github/issues/SiyuanPengUMD/CSSA-MiniApp.svg) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/SiyuanPengUMD/CSSA-MiniApp.svg) ![GitHub License](https://img.shields.io/github/license/SiyuanPengUMD/CSSA-MiniApp.svg)
 
