@@ -16,7 +16,6 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
-
 Please see [Contributing](#user-content-contributing) tab for more info if you want to report anything.
 
 ## Contents
