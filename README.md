@@ -7,6 +7,7 @@
 Please see [Contributing](#user-content-contributing) tab for more info if you want to report anything.
 For the purpose of having better service for Chinese students and scholar in University of Maryland, IT department of Chinese student and scholar association(CSSA) decided to develop this Mini App, which is a Wechat-based app.
 
+<p>
 This project started on October 1st, 2019, and our first stage goals are:
 <ul>
 <li> Register and config Mini App (Done)</li>
@@ -19,7 +20,7 @@ This project started on October 1st, 2019, and our first stage goals are:
 <ul>
 
 Deadline for first stage is later November, 2019
-
+</p>
 
 ## Contents
 
@@ -35,7 +36,7 @@ Deadline for first stage is later November, 2019
 //todo
 
 ## Installation
-
+<p>
 1. Download <a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 ">Wechat Developer Tool </a> here or copy and past link (https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 ) to browser. 
@@ -46,6 +47,7 @@ Deadline for first stage is later November, 2019
 6. On the left side of the Source Control window, under Workspace, click Settings. Under Network and Auth, select "use user name and password" and enter your <b> Github </b> username and password
 7. Under Remote, Add a new remote. Copy and Past this URL (https://github.com/syKevinPeng/CSSA-MiniApp/settings.git) to URL
 8. Then Pull all current file from Github. (The pull button is located on the top left corner of the Source Control window)
+</p>
 
 ## How To Use
 
