@@ -2,7 +2,11 @@
   <a href="https://github.com/syKevinPeng/CSSA-MiniApp/">CSSA Wechat MiniApp</a>
 </h1>
 
-![Codacy grade](https://api.codacy.com/project/badge/Grade/8126695323e746c48e84aacc7f4fbd30?isInternal=true) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/syKevinPeng/CSSA-MiniApp.svg) ![GitHub issues](https://img.shields.io/github/issues/syKevinPeng/CSSA-MiniApp.svg) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/syKevinPeng/CSSA-MiniApp.svg) ![GitHub License](https://img.shields.io/github/license/syKevinPeng/CSSA-MiniApp.svg)
+![Codacy grade](https://api.codacy.com/project/badge/Grade/8126695323e746c48e84aacc7f4fbd30?isInternal=true)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/syKevinPeng/CSSA-MiniApp.svg)
+![GitHub issues](https://img.shields.io/github/issues/syKevinPeng/CSSA-MiniApp.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/syKevinPeng/CSSA-MiniApp.svg)
+![GitHub License](https://img.shields.io/github/license/syKevinPeng/CSSA-MiniApp.svg)
 
 Please see [Contributing](#user-content-contributing) tab for more info if you want to report anything.
 For the purpose of having better service for Chinese students and scholar in University of Maryland, IT department of Chinese student and scholar association(CSSA) decided to develop this Mini App, which is a Wechat-based app.
