@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/syKevinPeng/CSSA-MiniApp/">CSSA Wechat MiniApp</a>
+  <a href="https://github.com/syKevinPeng/CSSA-MiniApp/">CSSA WeChat MiniApp</a>
 </h1>
 
 ![Codacy grade](https://api.codacy.com/project/badge/Grade/8126695323e746c48e84aacc7f4fbd30?isInternal=true)
@@ -7,6 +7,8 @@
 ![GitHub issues](https://img.shields.io/github/issues/syKevinPeng/CSSA-MiniApp.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/syKevinPeng/CSSA-MiniApp.svg)
 ![GitHub License](https://img.shields.io/github/license/syKevinPeng/CSSA-MiniApp.svg)
+
+# Description
 
 To provide better service for Chinese Students and Scholar Association (CSSA) in University of Maryland, CSSA IT department is developing this WeChat Mini App.
 
