@@ -21,6 +21,7 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 -   [**Features**](#user-content-features)
 -   [**Installation**](#user-content-installation)
 -   [How To Use](#user-content-how-to-use)
+-   [Plan](#user-content-plan)
 -   [Contributing](#user-content-contributing)
 -   [Author](#user-content-author)
 -   [License](#user-content-license)
@@ -31,15 +32,30 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 ## Installation
 
-1. Ask our team leader for log-in permission, AppID, and add you to program collaborators on Github.
-2. Download [WeChat Developer Tool](<https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>), and **Git Clone** this repo.
-3. Import cloned project to WeChat Developer Tool
-4. (Optional) You can change your language preference at Settings -> General Setting -> General -> Language.
-5. On the left side of the Source Control window, under Workspace, click Settings. Under Network and Auth, select "use user name and password" and enter your **Github** username and password.
+<p>1. Download <a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
+">Wechat Developer Tool </a> here or copy and past link (https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
+) to browser. </p>
+<p>2. Ask team leader for log-in permission, AppID, and adding you to program collaborators on Github</p>
+<p>3. Creat a new local project. Enter Project Name, AppID and select Backend Service as "Mini Program Cloud Base"</p>
+<p>4. (Optional) You can change your language preference at Settings -> General Setting -> General -> Language</p>
+<p>5. click Source Control (版本管理) to connect to Github Repo</p>
+<p>6. On the left side of the Source Control window, under Workspace, click Settings. Under Network and Auth, select "use user name and password" and enter your <b> Github </b> username and password</p>
+<p>7. Under Remote, Add a new remote. Copy and Past this URL (https://github.com/syKevinPeng/CSSA-MiniApp/settings.git) to URL</p>
+<p>8. Then Pull all current file from Github. (The pull button is located on the top left corner of the Source Control window)</p>
 
 ## How To Use
 
 //todo
+
+## Plan
+- [X] Register and config Mini App
+- [ ] Design and deploy Home Page
+- [ ] Creat and add department introduction
+- [ ] User log in
+- [ ] Add Terp Red Card
+- [ ] Add recent activity and tickets
+- [ ] Add contact information for every department
+
 
 ## Contributing
 
