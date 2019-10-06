@@ -41,10 +41,10 @@ If we knew each other, it's fine. Otherwise, don't.
 
 ## Authors
 
--   **[@syKevinPeng](<https://github.com/syKevinPeng>)**
+-   **[Kevin P.](<https://github.com/syKevinPeng>)**
     -   //todo
 
--   **[@jerryc05](<https://github.com/jerryc05>)**
+-   **[Jerry C.](<https://github.com/jerryc05>)**
     -   //todo
 
 ## License
