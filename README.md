@@ -16,7 +16,7 @@ This project started on October 1st, 2019, and our first stage goals are:
 <li> Add Terp Red Card</li>
 <li> Add recent activity and tickets</li>
 <li> Add contact information for every department</li>
-<ul>
+</ul>
 
 <p>Deadline for first stage is later November, 2019</p>
 
