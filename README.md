@@ -8,7 +8,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/syKevinPeng/CSSA-MiniApp.svg)
 ![GitHub License](https://img.shields.io/github/license/syKevinPeng/CSSA-MiniApp.svg)
 
-# Description
+## Description
 
 To provide better service for Chinese Students and Scholar Association (CSSA) in University of Maryland, CSSA IT department is developing this WeChat Mini App.
 
