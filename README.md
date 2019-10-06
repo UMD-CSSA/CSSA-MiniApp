@@ -2,19 +2,9 @@
   <a href="https://github.com/syKevinPeng/CSSA-MiniApp/">CSSA Wechat MiniApp</a>
 </h1>
 
+// description here
+
 ![Codacy grade](https://api.codacy.com/project/badge/Grade/8126695323e746c48e84aacc7f4fbd30?isInternal=true) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/syKevinPeng/CSSA-MiniApp.svg) ![GitHub issues](https://img.shields.io/github/issues/syKevinPeng/CSSA-MiniApp.svg) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/syKevinPeng/CSSA-MiniApp.svg) ![GitHub License](https://img.shields.io/github/license/syKevinPeng/CSSA-MiniApp.svg)
-
-# 云开发 quickstart
-
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
-
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
-
-## 参考文档
-
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
 Please see [Contributing](#user-content-contributing) tab for more info if you want to report anything.
 
