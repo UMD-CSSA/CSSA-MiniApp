@@ -7,7 +7,6 @@
 Please see [Contributing](#user-content-contributing) tab for more info if you want to report anything.
 For the purpose of having better service for Chinese students and scholar in University of Maryland, IT department of Chinese student and scholar association(CSSA) decided to develop this Mini App, which is a Wechat-based app.
 
-<p>
 This project started on October 1st, 2019, and our first stage goals are:
 <ul>
 <li> Register and config Mini App (Done)</li>
@@ -19,8 +18,7 @@ This project started on October 1st, 2019, and our first stage goals are:
 <li> Add contact information for every department</li>
 <ul>
 
-Deadline for first stage is later November, 2019
-</p>
+<p>Deadline for first stage is later November, 2019</p>
 
 ## Contents
 
