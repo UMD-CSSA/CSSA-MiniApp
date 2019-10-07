@@ -87,7 +87,7 @@ If we knew each other, it's fine. Otherwise, don't.
 -   **[Jonathan Z.](<https://github.com/yzhong1>)**
     -   //java c++ ocamel
 
-    **[Will W.](<https://github.com/willAries>)**
+-   **[Will W.](<https://github.com/willAries>)**
     -   //todo
 
 ## License
