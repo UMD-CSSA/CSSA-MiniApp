@@ -40,7 +40,7 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 1. Download **Wechat Developer Tool** [here](<https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>) or copy and past link to browser:
 
-    - https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
+    - <https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>
 
 2. Ask the team leader for log-in permission and AppID, and let him/her add you as a member of UMD-CSSA organization on Github.
 
@@ -53,7 +53,7 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 6. On the left side of the Source Control window, under Workspace, click Settings. Under Network and Auth, select "use user name and password" and enter your **Github** username and password
 
 7. Under Remote, Add a new remote. Copy and Past this URL:
-    - https://github.com/UMD-CSSA/CSSA-MiniApp.git
+    - <https://github.com/UMD-CSSA/CSSA-MiniApp.git>
 
 8. Then do a `git checkout` on `dev` branch. (The checkout button is located on the left side of  `Source Control`, under `Remote` section)
 
