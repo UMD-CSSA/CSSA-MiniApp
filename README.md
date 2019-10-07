@@ -87,6 +87,9 @@ If we knew each other, it's fine. Otherwise, don't.
 -   **[Jonathan Z.](<https://github.com/yzhong1>)**
     -   //java c++ ocamel
 
+    **[Will W.](<https://github.com/willAries>)**
+    -   //todo
+
 ## License
 
 This project is licensed under the GNU v3 License - see [LICENSE.md](https://github.com/UMD-CSSA/CSSA-MiniApp.git/blob/master/LICENSE) for details.
