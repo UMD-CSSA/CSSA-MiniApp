@@ -1,0 +1,3 @@
+<!--pages/helloWorld/helloWorld.wxml-->
+<text>pages/helloWorld/helloWorld.wxml{{er}}</text>
+<button type="primary" bindtap="buttonTap">{{btnText}}</button>
