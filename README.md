@@ -23,7 +23,7 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 -   [How To Use](#user-content-how-to-use)
 -   [Plan](#user-content-plan)
 -   [Contributing](#user-content-contributing)
--   [Author](#user-content-author)
+-   [Authors](#user-content-authors)
 -   [License](#user-content-license)
 
 ## Features
