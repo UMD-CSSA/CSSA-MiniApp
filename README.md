@@ -85,6 +85,7 @@ If we knew each other, it's fine. Otherwise, don't.
 ## Authors
 
 -   **[Kevin P.](<https://github.com/syKevinPeng>)**
+<<<<<<< HEAD
     - Duputy Minister of CSSA IT department, Miniapp program team leader. UMD Computer Science (Data Science track) and Math (Stats track) student.
 
 -   **[Jerry C.](<https://github.com/jerryc05>)**
@@ -95,6 +96,18 @@ If we knew each other, it's fine. Otherwise, don't.
 
 -   **[Will W.](<https://github.com/willAries>)**
     - Member of CSSA IT department. UMD Computer Science Major student.
+=======
+    -   //todo position
+
+-   **[Jerry C.](<https://github.com/jerryc05>)**
+    -   //todo position
+
+-   **[Jonathan Z.](<https://github.com/yzhong1>)**
+    -   //todo position
+
+-   **[Will W.](<https://github.com/willAries>)**
+    -   //todo position
+>>>>>>> dev
 
 - lts-2000 // TODO
 ## License
