@@ -57,7 +57,6 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 8. Then do a `git checkout` on `dev` branch. (The checkout button is located on the left side of  `Source Control`, under `Remote` section)
 
-
 ## How To Use
 
 //todo
@@ -70,7 +69,6 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 - [ ] Add Terp Red Card
 - [ ] Add recent activity and tickets
 - [ ] Add contact information for every department
-
 
 ## Contributing
 
