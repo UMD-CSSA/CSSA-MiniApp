@@ -6,7 +6,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/UMD-CSSA/CSSA-MiniApp.svg)
 ![GitHub issues](https://img.shields.io/github/issues/UMD-CSSA/CSSA-MiniApp.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UMD-CSSA/CSSA-MiniApp.svg)
-![GitHub License](https://img.shields.io/github/license/UMD-CSSA/CSSA-MiniApp.svg)
+![GitHub license](https://img.shields.io/github/license/UMD-CSSA/CSSA-MiniApp.svg)
 
 ## Description
 
@@ -23,7 +23,7 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 -   [How To Use](#user-content-how-to-use)
 -   [Plan](#user-content-plan)
 -   [Contributing](#user-content-contributing)
--   [Author](#user-content-author)
+-   [Authors](#user-content-authors)
 -   [License](#user-content-license)
 
 ## Features
@@ -32,9 +32,15 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 ## Installation
 
+### Production purpose
+
+//todo
+
+### Development purpose
+
 1. Download **Wechat Developer Tool** [here](<https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>) or copy and past link to browser:
 
-    - https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
+    - <https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>
 
 2. Ask the team leader for log-in permission and AppID, and let him/her add you as a member of UMD-CSSA organization on Github.
 
@@ -47,10 +53,9 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 6. On the left side of the Source Control window, under Workspace, click Settings. Under Network and Auth, select "use user name and password" and enter your **Github** username and password
 
 7. Under Remote, Add a new remote. Copy and Past this URL:
-    - https://github.com/UMD-CSSA/CSSA-MiniApp.git
+    - <https://github.com/UMD-CSSA/CSSA-MiniApp.git>
 
-8. Then do a **Git Pull**. (The pull button is located on the top left corner of the Source Control window)
-
+8. Then do a `git checkout` on `dev` branch. (The checkout button is located on the left side of  `Source Control`, under `Remote` section)
 
 ## How To Use
 
@@ -65,12 +70,13 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 - [ ] Add recent activity and tickets
 - [ ] Add contact information for every department
 
-
 ## Contributing
 
 ### Option 1: Submit via GitHub Issue (recommended)
 
-It is strongly encouraged to submit bug reports and feature requests through [GitHub Issue](https://github.com/UMD-CSSA/CSSA-MiniApp.git/issues) page. It will help us organize and keep track of every issue reported.
+It is strongly encouraged to submit bug reports and feature requests through
+[GitHub Issue](https://github.com/UMD-CSSA/CSSA-MiniApp.git/issues)
+page. It will help us organize and keep track of every issue reported.
 
 ### Option 2: Contact us via Direct Message Apps
 
@@ -79,11 +85,20 @@ If we knew each other, it's fine. Otherwise, don't.
 ## Authors
 
 -   **[Kevin P.](<https://github.com/syKevinPeng>)**
-    -   CSSA 
+    - Duputy Minister of CSSA IT department, Miniapp program team leader. UMD Computer Science (Data Science track) and Math (Stats track) student.
 
 -   **[Jerry C.](<https://github.com/jerryc05>)**
-    -   //todo
+    - Member of CSSA IT department. UMD Computer Science Major student.
 
+-   **[Jonathan Z.](<https://github.com/yzhong1>)**
+    - Member of CSSA IT department. UMD Computer Science Major student.
+
+-   **[Will W.](<https://github.com/willAries>)**
+    - Member of CSSA IT department. UMD Computer Science Major student.
+
+- lts-2000 // TODO
 ## License
 
-This project is licensed under the GNU v3 License - see [LICENSE.md](https://github.com/UMD-CSSA/CSSA-MiniApp.git/blob/master/LICENSE) for details.
+This project is licensed under the GNU v3 License - see
+[LICENSE.md](https://github.com/UMD-CSSA/CSSA-MiniApp.git/blob/master/LICENSE)
+for details.
