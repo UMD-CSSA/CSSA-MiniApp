@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/UMD-CSSA/CSSA-MiniApp.git/">CSSA WeChat MiniApp</a>
+  <a href="https://github.com/UMD-CSSA/CSSA-MiniApp.git/">UMD CSSA WeChat MiniApp</a>
 </h1>
 
 ![Codacy grade](https://api.codacy.com/project/badge/Grade/8126695323e746c48e84aacc7f4fbd30?isInternal=true)
@@ -57,7 +57,6 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 8. Then do a `git checkout` on `dev` branch. (The checkout button is located on the left side of  `Source Control`, under `Remote` section)
 
-
 ## How To Use
 
 //todo
@@ -70,7 +69,6 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 - [ ] Add Terp Red Card
 - [ ] Add recent activity and tickets
 - [ ] Add contact information for every department
-
 
 ## Contributing
 
@@ -87,17 +85,17 @@ If we knew each other, it's fine. Otherwise, don't.
 ## Authors
 
 -   **[Kevin P.](<https://github.com/syKevinPeng>)**
-    -   //todo position
+    - Duputy Minister of CSSA IT department, Miniapp program team leader. UMD Computer Science (Data Science track) and Math (Stats track) student.
 
 -   **[Jerry C.](<https://github.com/jerryc05>)**
-    -   //todo position
+    - Member of CSSA IT department. UMD Computer Science Major student.
 
 -   **[Jonathan Z.](<https://github.com/yzhong1>)**
-    -   //todo position
+    - Member of CSSA IT department. UMD Computer Science Major student.
 
 -   **[Will W.](<https://github.com/willAries>)**
-    -   //todo position
-
+    - Member of CSSA IT department. UMD Computer Science Major student.
+- lts-2000 // TODO
 ## License
 
 This project is licensed under the GNU v3 License - see
