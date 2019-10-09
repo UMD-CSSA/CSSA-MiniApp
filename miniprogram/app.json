@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/helloWorld/helloWorld"
+    "pages/helloWorld/helloWorld",
+    "pages/mainPage/mainPage"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
