@@ -4,7 +4,7 @@
 
 ---
 
-1. Mini Program Hellow World: https://blog.csdn.net/linsongbin1/article/details/79781246
+1. Complete tutorial: https://www.w3cschool.cn/weixinapp
 
 2. Image slider:https://blog.csdn.net/m0_38082783/article/details/78835082
 
