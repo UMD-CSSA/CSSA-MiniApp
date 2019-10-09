@@ -10,7 +10,7 @@
 
 ## Description
 
-To provide better service for Chinese Students and Scholar Association (CSSA) in University of Maryland, CSSA IT department is developing this WeChat Mini App.
+To provide better service for Chinese Student at University of Maryland, College Park, IT department of Chinese Students and Scholar Association (CSSA) is developing this WeChat Mini App.
 
 This project started on October 1st, 2019.
 
