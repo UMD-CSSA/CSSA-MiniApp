@@ -32,12 +32,6 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 ## Installation
 
-### Production purpose
-
-//todo
-
-### Development purpose
-
 1. Download **Wechat Developer Tool** [here](<https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>) or copy and past link to browser:
 
     - <https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>
@@ -57,11 +51,13 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 8. Then do a `git checkout` on `dev` branch. (The checkout button is located on the left side of  `Source Control`, under `Remote` section)
 
-## How To Use
+### Production purpose
 
 //todo
 
-## Plan
+
+
+### Plan
 - [X] Register and config Mini App
 - [ ] Design and deploy Home Page
 - [ ] Creat and add department introduction
@@ -78,9 +74,9 @@ It is strongly encouraged to submit bug reports and feature requests through
 [GitHub Issue](https://github.com/UMD-CSSA/CSSA-MiniApp.git/issues)
 page. It will help us organize and keep track of every issue reported.
 
-### Option 2: Contact us via Direct Message Apps
+### Option 2: Contact us via Email
 
-If we knew each other, it's fine. Otherwise, don't.
+umdcssait@gmail.com. In subject, please includce Wechat MiniApp
 
 ## Authors
 
