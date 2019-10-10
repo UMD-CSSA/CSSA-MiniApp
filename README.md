@@ -51,13 +51,13 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 8. Then do a `git checkout` on `dev` branch. (The checkout button is located on the left side of  `Source Control`, under `Remote` section)
 
-### Production purpose
+## Production purpose
 
 //todo
 
 
 
-### Plan
+## Plan
 - [X] Register and config Mini App
 - [ ] Design and deploy Home Page
 - [ ] Creat and add department introduction
