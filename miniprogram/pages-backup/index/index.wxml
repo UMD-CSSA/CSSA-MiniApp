@@ -1,6 +1,18 @@
 <!--index.wxml-->
 <view class="container">
 
+<!-- image slider -->
+<swiper class="swiper" indicator-dots="true" autoplay="true" circular="true" interval="5000" duration="1000">  
+
+      <block wx:for="{{movies}}" wx:for-index="index">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper> 
+
+
+  
   <!-- 用户 openid -->
   <view class="userinfo">
     <button 

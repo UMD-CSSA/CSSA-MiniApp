@@ -10,7 +10,7 @@
 
 ## Description
 
-To provide better service for Chinese Students and Scholar Association (CSSA) in University of Maryland, CSSA IT department is developing this WeChat Mini App.
+To provide better service for Chinese Student at University of Maryland, College Park, IT department of Chinese Students and Scholar Association (CSSA) is developing this WeChat Mini App.
 
 This project started on October 1st, 2019.
 
@@ -32,12 +32,6 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 ## Installation
 
-### Production purpose
-
-//todo
-
-### Development purpose
-
 1. Download **Wechat Developer Tool** [here](<https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>) or copy and past link to browser:
 
     - <https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html>
@@ -57,7 +51,7 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 8. Then do a `git checkout` on `dev` branch. (The checkout button is located on the left side of  `Source Control`, under `Remote` section)
 
-## How To Use
+## Production purpose
 
 //todo
 
@@ -78,9 +72,9 @@ It is strongly encouraged to submit bug reports and feature requests through
 [GitHub Issue](https://github.com/UMD-CSSA/CSSA-MiniApp.git/issues)
 page. It will help us organize and keep track of every issue reported.
 
-### Option 2: Contact us via Direct Message Apps
+### Option 2: Contact us via Email
 
-If we knew each other, it's fine. Otherwise, don't.
+umdcssait@gmail.com. In subject, please includce Wechat MiniApp
 
 ## Authors
 
@@ -95,7 +89,10 @@ If we knew each other, it's fine. Otherwise, don't.
 
 -   **[Will W.](<https://github.com/willAries>)**
     - Member of CSSA IT department. UMD Computer Science Major student.
-- lts-2000 // TODO
+
+-   **[Tianshu L.](<https://github.com/lts-2000>)**
+    - Member of CSSA IT department. UMD Math Major student.
+
 ## License
 
 This project is licensed under the GNU v3 License - see
