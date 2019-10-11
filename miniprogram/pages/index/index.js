@@ -11,6 +11,7 @@ Page({
     logged: false,
     takeSession: false,
     requestResult: '',
+  //image slider
     movies: [
       {url :  '/images/cssa_logo.png'
 },
