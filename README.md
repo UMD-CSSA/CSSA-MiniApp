@@ -55,8 +55,6 @@ Please see [Contributing](#user-content-contributing) tab for more info if you w
 
 //todo
 
-
-
 ## Plan
 - [X] Register and config Mini App
 - [ ] Design and deploy Home Page
@@ -91,7 +89,10 @@ umdcssait@gmail.com. In subject, please includce Wechat MiniApp
 
 -   **[Will W.](<https://github.com/willAries>)**
     - Member of CSSA IT department. UMD Computer Science Major student.
-- lts-2000 // TODO
+
+-   **[Tianshu L.](<https://github.com/lts-2000>)**
+    - Member of CSSA IT department. UMD Math Major student.
+
 ## License
 
 This project is licensed under the GNU v3 License - see
