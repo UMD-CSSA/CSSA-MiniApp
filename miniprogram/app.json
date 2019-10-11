@@ -26,7 +26,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/helloWorld/helloWorld",
+        "pagePath": "pages/mainPage/mainPage",
         "iconPath": "images/cssa_logo.png",
         "selectedIconPath": "images/cssa_logo.png",
         "text": "TODO 1"
