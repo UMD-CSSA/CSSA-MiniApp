@@ -91,7 +91,7 @@ umdcssait@gmail.com. In subject, please includce Wechat MiniApp
     - Member of CSSA IT department. UMD Computer Science Major student.
 
 -   **[Tianshu L.](<https://github.com/lts-2000>)**
-    - Member of CSSA IT department. UMD Math Major student.
+    - Member of CSSA IT department. UMD Math(Applied track) Major student.
 
 ## License
 
