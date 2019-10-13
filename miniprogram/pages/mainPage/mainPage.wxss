@@ -1,11 +1,15 @@
 /* miniprogram/pages/mainPage/mainPage.wxss */
 
-/**image slider**/
-.swiper {
-  height: 400rpx;
+.w-h-16-9 {
+  /* 16:9 ratio */
+  height: 422rpx;
+}
+
+.fill-width {
   width: 100%;
 }
-.swiper image {
-  height: 100%;
+
+.fill-square {
+  height: 750rpx;
   width: 100%;
 }
