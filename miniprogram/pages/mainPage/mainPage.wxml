@@ -2,7 +2,7 @@
 
 <!-- [swiper] image slider -->
 <swiper class="w-h-16-9" indicator-dots="true" autoplay="true" circular="true" interval="4000" duration="1000">
-  <block wx:key="*this" wx:for="{{img_slider_urls}}">
+  <block wx:key="*this" wx:for="{{imgSliderUrls}}">
     <swiper-item>
       <image src="{{item}}" mode="aspectFit" lazy-load="true" class="fill-width"/>
     </swiper-item>

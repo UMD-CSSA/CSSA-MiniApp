@@ -6,7 +6,7 @@ Page({
    */
   data: {
     // [swiper] image slider
-    img_slider_urls: [
+    imgSliderUrls: [
       'https://images.unsplash.com/photo-1558637845-c8b7ead71a3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80',
       'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg',
       'http://img04.tooopen.com/images/20130617/tooopen_21241404.jpg',
