@@ -39,6 +39,7 @@ Page({
         cc.setLineCap("round")
         cc.setLineJoin("round")
 
+        cc.rect(.5 * scaleFactor, .5 * scaleFactor, 19 * scaleFactor, 19 * scaleFactor)
         cc.moveTo(18 * scaleFactor, 2 * scaleFactor)
         cc.lineTo(2 * scaleFactor, 2 * scaleFactor)
         cc.lineTo(2 * scaleFactor, 14 * scaleFactor)
