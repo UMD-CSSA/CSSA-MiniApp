@@ -2,7 +2,7 @@
   "pages": [
     "pages/mainPage/mainPage",
     "pages/helloWorld/helloWorld"
-    ],
+  ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
@@ -51,5 +51,5 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap89.json"
+  "sitemapLocation": "sitemap87.json"
 }
