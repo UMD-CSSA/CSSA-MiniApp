@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/mainPage/mainPage",
-    "pages/helloWorld/helloWorld"
+    "pages/mainPage/mainPage"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -23,31 +22,31 @@
         "pagePath": "pages/mainPage/mainPage",
         "iconPath": "images/cssa_logo.png",
         "selectedIconPath": "images/cssa_logo.png",
-        "text": "首页"
+        "text": "Page 1"
       },
       {
         "pagePath": "pages/mainPage/mainPage",
         "iconPath": "images/cssa_logo.png",
         "selectedIconPath": "images/cssa_logo.png",
-        "text": "TODO 1"
+        "text": "Page 2"
       },
       {
-        "pagePath": "pages/helloWorld/helloWorld",
+        "pagePath": "pages/mainPage/mainPage",
         "iconPath": "images/cssa_logo.png",
         "selectedIconPath": "images/cssa_logo.png",
-        "text": "TODO 2"
+        "text": "Page 3"
       },
       {
-        "pagePath": "pages/helloWorld/helloWorld",
+        "pagePath": "pages/mainPage/mainPage",
         "iconPath": "images/cssa_logo.png",
         "selectedIconPath": "images/cssa_logo.png",
-        "text": "TODO 3"
+        "text": "Page 4"
       },
       {
-        "pagePath": "pages/helloWorld/helloWorld",
+        "pagePath": "pages/mainPage/mainPage",
         "iconPath": "images/cssa_logo.png",
         "selectedIconPath": "images/cssa_logo.png",
-        "text": "TODO 4"
+        "text": "Page 5"
       }
     ]
   },
