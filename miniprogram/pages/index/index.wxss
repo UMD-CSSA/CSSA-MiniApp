@@ -145,3 +145,32 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+.navbars_container{
+ position: auto;
+width: 100%;
+
+}
+
+.navbars{
+display: flex;
+  flex-direction:space-bewtween;
+}
+
+
+.navbar{
+  width: 300rpx;
+  height: 150rpx;
+}
+
+.nav_img
+{
+  display: flex;
+  justify-content: center;
+}
+
+.nav_text
+{
+  display: flex;
+  justify-content: center;
+}
