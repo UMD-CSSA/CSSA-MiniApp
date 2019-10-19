@@ -1,0 +1,60 @@
+<!--pages/departmentIntro/departmentIntro.wxml-->
+<view class="container">
+ 
+  <view class="page_section">
+      <view class="top">
+        <text>部门介绍</text>
+        <text>\n Department Introduction</text>
+      </view>
+  </view>    
+
+      
+	<view class="dptList"> 
+
+
+
+			<navigator class="dpt_button" url="">
+				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				<view class=""><text class="fl"><text>39.9</text></text></view>
+			</navigator>
+
+
+			<navigator url="">
+				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				<view class=""><text class="fl"><text>39.9</text></text></view>
+			</navigator>
+
+
+			<navigator class="dpt_button" url="">
+				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				<view class=""><text class="fl"><text>39.9</text></text></view>
+			</navigator>
+
+			<navigator url="">
+				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				<view class=""><text class="fl"><text>39.9</text></text></view>
+			</navigator>
+
+      <navigator class="dpt_button" url="">
+				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				<view class=""><text class="fl"><text>39.9</text></text></view>
+			</navigator>
+
+			<navigator url="">
+				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				<view class=""><text class="fl"><text>39.9</text></text></view>
+			</navigator>
+
+		
+	</view>
+  
+
+
+
+</view>

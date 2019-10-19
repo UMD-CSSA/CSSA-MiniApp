@@ -1,0 +1,41 @@
+/* pages/departmentIntro/departmentIntro.wxss */
+.top{
+  
+    width: 520rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    position: relative;
+    color: #888888;
+    font-size: 30rpx;
+    margin: 27rpx auto;
+    text-align:center;
+    
+}
+
+.dptList{
+  margin-top:25rpx; 
+}
+.dptList navigator {
+    width: 45%;
+    float: left;
+    vertical-align: top;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    margin-bottom: 20rpx;
+    margin-left: 25rpx;
+    
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.dptpro_img, .dptpro_img image {
+    width: 250rpx;
+    height: 250rpx;
+}
+.dptpro_img {
+    margin: 50rpx auto;
+}
+
+
