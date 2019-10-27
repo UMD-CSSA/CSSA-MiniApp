@@ -24,7 +24,7 @@
 	},
 	"appid": "wxdde2bd5ddd45d234",
 	"projectname": "CSSA-MiniApp",
-	"libVersion": "2.8.3",
+	"libVersion": "2.9.0",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
