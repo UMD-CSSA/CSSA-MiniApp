@@ -2,38 +2,65 @@
 Page({
 
   /**
-   * 页面的初始数据
+   * Data in page
    */
   data: {
     nickName: "Nick Name Here!"
   },
 
-  onGotUserInfo(response) {
-    console.warn(response.detail)
-    this.setData({
-      avatarUrl: response.detail.userInfo.avatarUrl,
-      nickName: response.detail.userInfo.nickName
+  onLoginClicked(eventInfo) {
+    // Log click event to console
+    console.info('onLoginClicked() >>>')
+    console.info(eventInfo)
+
+    // Begin WeChat Login
+    wx.login({
+      success(response) {
+        // Log to console
+        console.info('wx.login()->success() >>>' + response)
+
+        // If succeeded / code exists
+        if (response.code) {
+          // Notify developers that login succeeded
+          // Shall be removed before release
+          wx.showModal({
+            title: 'WeChat Login',
+            content: 'Success! Code = ' + response.code,
+          })
+
+          // Notify CSSA Server
+          wx.request({
+            url: 'https://wxapp.umd-cssa.org/api/v0/login',
+            // url: 'http://127.0.0.1:6006/api/v0/login',
+            data: {
+              code: response.code
+            }
+          })
+
+        } else {
+          // Log error
+          getApp().onError('wx.login() failed >>>')
+          getApp().onError(response.errMsg)
+        }
+      }
     })
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-    wx.login({
-      success(response) {
-        console.warn(response)
-        // if (res.code) {
-        // wx.request({
-        //   url: 'https://test.com/onLogin',
-        //   data: {
-        //     code: res.code
-        //   }
-        // })
-        // } else {
-        // console.log('登录失败！' + res.errMsg)
-        // }
-      }
-    })
+  onGotUserInfo(response) {
+    // Log trigger event to console
+    console.info('onGotUserInfo() >>>')
+    console.info(response)
+
+    // If succeeded / user info exists
+    if (response.detail.userInfo)
+      // Update corresponding fields
+      this.setData({
+        avatarUrl: response.detail.userInfo.avatarUrl,
+        nickName: response.detail.userInfo.nickName
+      })
+
+    else
+      // Log error
+      getApp().onError('onGotUserInfo() failed!')
   },
 })

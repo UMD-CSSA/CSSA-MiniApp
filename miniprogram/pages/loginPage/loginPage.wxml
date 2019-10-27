@@ -1,6 +1,8 @@
 <!--pages/loginPage/loginPage.wxml-->
 
-<button type="default" open-type="getUserInfo" class="fill-width" lang="zh_CN" bindgetuserinfo="onGotUserInfo"> getUserInfo </button>
+<button type="default" bindtap="onLoginClicked"> login </button>
+
+<button type="default" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo"> getUserInfo </button>
 
 <image src="{{avatarUrl}}" mode="aspectFit" lazy-load="true" class="fill-width"/>
 
