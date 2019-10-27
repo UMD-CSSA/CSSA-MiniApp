@@ -4,4 +4,4 @@
 
 <image src="{{avatarUrl}}" mode="aspectFit" lazy-load="true" class="fill-width"/>
 
-<text src="{{nickName}}"/>
+<text class="text-center"> {{nickName}} </text>

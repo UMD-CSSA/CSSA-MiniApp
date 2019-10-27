@@ -12,6 +12,10 @@
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 page {
   background: #f6f6f6;
   display: flex;

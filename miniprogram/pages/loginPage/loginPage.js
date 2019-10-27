@@ -4,7 +4,9 @@ Page({
   /**
    * 页面的初始数据
    */
-  // data: {},
+  data: {
+    nickName: "Nick Name Here!"
+  },
 
   onGotUserInfo(response) {
     console.warn(response.detail)
