@@ -8,6 +8,11 @@ Page({
     nickName: "Nick Name Here!"
   },
 
+  /**
+   * Callback listener of the login button.
+   *
+   * @param {object} eventInfo Info of the triggered event (ignore it).
+   */
   onLoginClicked(eventInfo) {
     // Log click event to console
     console.info('onLoginClicked() >>>')
@@ -46,7 +51,14 @@ Page({
     })
   },
 
-  onGotUserInfo(response) {
+  /**
+   * **IMPORTANT!** User info must be fetched from WeChat server in this way
+   * (through a button with `open-type="getUserInfo"` and bind a function to
+   * `bindgetuserinfo` field)!!!!!!
+   *
+   * @param {object} response The response returned from WeChat server.
+   */
+  onUserInfoReturned(response) {
     // Log trigger event to console
     console.info('onGotUserInfo() >>>')
     console.info(response)
