@@ -10,4 +10,4 @@
 </swiper>
 
 <!-- [canvas] cssa logo -->
-<canvas canvas-id="cssa-logo" binderror="onError" class="fill-square"/>
+<!-- <canvas canvas-id="cssa-logo" binderror="onError" class="fill-square"/> -->

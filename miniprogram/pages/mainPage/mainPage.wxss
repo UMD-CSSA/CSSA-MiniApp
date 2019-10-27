@@ -1,2 +1,2 @@
 /* miniprogram/pages/mainPage/mainPage.wxss */
-@import "../../style/guide.wxss";
+@import "../../style/style_sheet.wxss";
