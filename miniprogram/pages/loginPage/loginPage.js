@@ -22,7 +22,8 @@ Page({
     wx.login({
       success(response) {
         // Log to console
-        console.info('wx.login()->success() >>>' + response)
+        console.info('wx.login()->success() >>>')
+        console.info(response)
 
         // If succeeded / code exists
         if (response.code) {
