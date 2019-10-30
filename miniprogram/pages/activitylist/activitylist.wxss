@@ -36,7 +36,6 @@
 
 
 .deptName{
- 
   margin-bottom: 10rpx;
   margin-left: 15rpx;
   font-size: 28rpx;

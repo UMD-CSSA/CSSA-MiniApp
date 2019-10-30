@@ -10,11 +10,9 @@
       
 	<view class="dptList">
 
-
-
 			<navigator class="dpt_button" url="">
 				
-				<view class="deptName">someDept someDept someDept someDept someDept someDept </view>
+				<view class="deptName">someDept someDept someDept someDept someDept someDept</view>
 				
 			</navigator>
      
