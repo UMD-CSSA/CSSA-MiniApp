@@ -13,3 +13,7 @@
    - Notes: You can use canvas to draw CSSA logo
    
 4. UI library: https://github.com/weilanwl/ColorUI
+
+5. CSSA E-Board: 
+
+   https://docs.google.com/document/d/15lPgKg9hFW00I2w5mYYu8EuQ7WNhzCV3NSNwwuYnSgw/edit
