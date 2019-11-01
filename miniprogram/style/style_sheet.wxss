@@ -1,3 +1,25 @@
+.w-h-16-9 {
+  /* 16:9 ratio */
+  height: 422rpx;
+}
+
+.fill-width {
+  width: 100%;
+}
+
+.fill-square {
+  height: 750rpx;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
 page {
   background: #f6f6f6;
   display: flex;
@@ -92,7 +114,7 @@ page {
   line-height: 36rpx;
   border-radius: 6rpx;
   color: #fff;
-  white-space: pre
+  white-space: pre;
 }
 
 .guide image {
@@ -141,4 +163,3 @@ page {
 .guide .nav .next {
   margin-right: unset;
 }
-
