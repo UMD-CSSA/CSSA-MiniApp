@@ -1,26 +1,23 @@
 <!--index.wxml-->
 <view class="container">
 
-<!-- image slider -->
-<swiper class="swiper" indicator-dots="true" autoplay="true" circular="true" interval="5000" duration="1000">  
 
-      <block wx:for="{{movies}}" wx:for-index="index">  
-        <swiper-item>  
-          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
-        </swiper-item>  
-      </block>  
-    </swiper> 
+  <!-- image slider -->
+  <swiper class="swiper" indicator-dots="true" autoplay="true" circular="true" interval="5000" duration="1000">
+
+    <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
 
 
-  
+  <button bindtap="upload_pdf"> test </button>
+
   <!-- 用户 openid -->
   <view class="userinfo">
-    <button 
-      open-type="getUserInfo" 
-      bindgetuserinfo="onGetUserInfo"
-      class="userinfo-avatar"
-      style="background-image: url({{avatarUrl}})"
-    ></button>
+    <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" class="userinfo-avatar" style="background-image: url({{avatarUrl}})"></button>
     <view>
       <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
     </view>
@@ -66,35 +63,37 @@
     </navigator>
   </view>
 
-<view  class="navbars_container">
-<view class="navbars">
+<!-- 导航栏1.0 -->
+</view>
+<view class="navbars_container">
+  <view class="navbars">
 
-<view class="navbar" >
-  <navigator  url="../index/index" hover-class="navigator-hover">
-  <view class="nav_img">
-  <icon class="iconfont icon-shouye"></icon>
-  </view>
-  <view class="nav_text"> \n Mainpage</view>
-   </navigator>
-  </view>
 
-<view class="navbar" >
-<navigator url="../users/users" hover-class="navigator-hover">
-<view class="nav_img">
-<icon class="iconfont icon-fenleiorguangchangorqita"></icon>
-</view>
-<view class="nav_text"> \n Users</view>
-</navigator>
-</view>
+    <view class="navbar">
+      <navigator url="../index/index" hover-class="navigator-hover">
+        <view class="nav_img">
+          <icon class="iconfont icon-shouye"></icon>
+        </view>
+        <view class="nav_text"> \n Mainpage</view>
+      </navigator>
+    </view>
 
-<view class="navbar" >
-  <navigator url="../activities/activities" hover-class="navigator-hover">
-  <view class="nav_img">
-  <icon class="iconfont icon-shezhi"></icon>
+    <view class="navbar">
+      <navigator url="../users/users" hover-class="navigator-hover">
+        <view class="nav_img">
+          <icon class="iconfont icon-fenleiorguangchangorqita"></icon>
+        </view>
+        <view class="nav_text"> \n Users</view>
+      </navigator>
+    </view>
+
+    <view class="navbar">
+      <navigator url="../activities/activities" hover-class="navigator-hover">
+        <view class="nav_img">
+          <icon class="iconfont icon-shezhi"></icon>
+        </view>
+        <view class="nav_text"> \n Activities</view>
+      </navigator>
+    </view>
   </view>
-  <view class="nav_text"> \n Activities</view>
-  </navigator>
-</view>
-</view>
-</view>
 </view>
