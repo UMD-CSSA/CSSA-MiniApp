@@ -4,6 +4,7 @@ const app = getApp()
 Page({
 
   
+  
   data: {
     
     avatarUrl: './user-unlogin.png',
@@ -24,12 +25,16 @@ Page({
   },
 
   onLoad: function() {
+    
+    
     if (!wx.cloud) {
       wx.redirectTo({
         url: '../chooseLib/chooseLib',
       })
       return
     }
+
+    
 
     // 获取用户信息
     wx.getSetting({
@@ -130,4 +135,25 @@ Page({
     })
   },
 
+  // 加载网页pdf
+  upload_pdf: function (){
+  wx.downloadFile({
+    url: 'https://umd-cssa.org/wp-content/uploads/2018/05/UMD-CSSA-2018-freshmen-handbook.pdf',
+    success: function (res) {
+      console.log(res)
+      var Path = res.tempFilePath              //返回的文件临时地址，用于后面打开本地预览所用
+      wx.openDocument({
+        filePath: Path,
+        success: function (res) {
+          console.log('打开文档成功')
+        }
+      })
+    },
+    fail: function (res) {
+      console.log(res)
+    }
+  })
+  }
+
 })
+
