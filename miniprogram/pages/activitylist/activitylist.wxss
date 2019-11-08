@@ -1,4 +1,4 @@
-/* pages/departmentIntro/departmentIntro.wxss */
+/* pages/activitylist/activitylist.wxss */
 .top{
   
     width: 520rpx;
@@ -23,20 +23,26 @@
     width: 93%;
     float: left;
     vertical-align: top;
-    border: 1px solid black;
-    background-color: lightgray;
+   
+    background-color: lightcyan;
     margin-bottom: 50rpx;
     margin-left: 25rpx;
-    
+    border: 1px solid;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 10rpx;
 }
 
+.dptpro_img, .dptpro_img image {
+    width: 100%;
+    height: 250rpx;
+    
+}
 
 .deptName{
-  margin-bottom: 10rpx;
-  margin-left: 15rpx;
-  font-size: 28rpx;
+  text-align: center;
+  opacity: 0.7;
 }
+
+
