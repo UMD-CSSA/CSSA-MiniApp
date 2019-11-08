@@ -175,7 +175,14 @@ width: 100%;
   justify-content: center;
 }
 
-.main
+.bgimg
 {
-  margin-right: 0rpx;
+  position:relative;
+  z-index: -900;
+  float:right;
+}
+.canvas
+{
+  position:absolute;
+  z-index:900;
 }

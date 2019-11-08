@@ -20,5 +20,18 @@ Page({
         console.log("Img Height: " + this.setData.imgHeight + " Img Width: " + this.setData.imgWidth)
       }
     })
+  },
+  onReady: function () {
+    var my_carvas = wx.createCanvasContext('myCanvas', this) 
+    my_carvas.setStrokeStyle('red') 
+    my_carvas.rect(10, 10, 100, 30)
+    my_carvas.stroke()  
+    my_carvas.draw()  
+  },
+
+  naviToSetting() {
+    wx.navigateTo({
+      url: 'loginPage',
+    })
   }
 })
