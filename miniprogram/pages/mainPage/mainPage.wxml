@@ -1,11 +1,5 @@
 <!--index.wxml-->
-<view class="container" bindtap="onBgImgClicked">
-  <!-- Buttons here -->
-  <view class="upperlayer">
-      <image src="/images/terp_shell_btn1.png" style="height:{{btnHeight}}px; width:{{btnWidth}}px; float:right; margin-right:{{btnMarginRight}}px; margin-top:{{btnMarginTop1}}px" />
-      <!-- <image src="/images/terp_shell_btn1.png" style="height:{{btnHeight}}px; width:{{btnWidth}}px; float:right; margin-right:{{btnMarginRight}}px; margin-top:{{btnMarginTop2}}px" />
-      <image src="/images/terp_shell_btn1.png" style="height:{{btnHeight}}px; width:{{btnWidth}}px; float:right; margin-right:{{btnMarginRight}}px; margin-top:{{btnMarginTop3}}px" /> -->
-  </view>
+<view class="container" bindtap="onClicked">
   <!-- background img -->
   <view style="width:{{winWidth}}px;height:{{imgHeight}}px;" class="bgimg">
     <image src="/images/terp_shell.png" style="height:{{imgHeight}}px; width:{{imgWidth}}px; float:right"/>
