@@ -5,44 +5,45 @@ Page({
    * Data in page
    */
   data: {
-    model:''
   },
 
   onLoad() {
-    wx.getSystemInfo({
-      success:res => {
-        this.setData({
-          model:res.model,
-          winWidth : res.windowWidth,
-          winHeight : res.windowHeight,
-          })
-      },
-      fail:res =>{
-        this.setData({
-          model:NONE
-        })
-      },
-      complete: res =>{
-        model = this.setData.model;
-        if(model == "iPhone 6" || model == "iPhone 7" || model == "iPhone8"){
-          console.log("THis is a iphone 6 or 7 or 8")
-        }else{
-          this.setData({
-            imgHeight: res.windowHeight * 0.9,
-            imgWidth: (res.windowHeight * 0.9) / 1350 * 750,
-            btnHeight: 230 / 750 * (res.windowHeight),
-            btnRight: 80 / 375 * ((res.windowHeight * 0.9) / 1350 * 750),
-            btnMarginTop: 270 / 740 * (res.windowHeight)
-          })
-        }
-        console.log("curr width: " + res.windowWidth),
-        console.log("btnHeight: " + 380 / 375 * res.windowWidth)
-      }
+    const res = wx.getSystemInfoSync()
+    if (!res) {
+      getApp().onError("wx.getSystemInfoSync() return nothing")
+    }
+
+    this.setData({
+      winWidth: res.windowWidth,
+      winHeight: res.windowHeight,
+    })
+
+
+    const imgHeight = 1350
+    const btnHeight = 255
+    const scaleFactor = res.windowHeight * 9 / 10 / 1350
+    const aspectRatio = 5 / 9 // 1350:750
+    const btnAspectRatio = 40 / 51 // 200:255
+
+    const _imgHeight = scaleFactor * imgHeight
+    const _imgWidth = _imgHeight * aspectRatio
+    const _btnHeight = scaleFactor * btnHeight
+    const _btnWidth = _btnHeight * btnAspectRatio
+
+    this.setData({
+      imgHeight: _imgHeight,
+      imgWidth: _imgWidth,
+      btnHeight: _btnHeight,
+      btnWidth: _btnWidth,
+      btnMarginRight: _imgWidth * 90 / 750,
+      btnMarginTop1: _imgHeight * 270 / 1350,
+      btnMarginTop2: _imgHeight * 270 / 1350 + 280,
+      btnMarginTop3: _imgHeight * 270 / 1350 + 280 * 2,
     })
   },
-  naviToSetting: function(event) {
-    wx.navigateTo({
-      url:"pages/loginPage/loginPage"
-      })
-    }
+
+  onBgImgClicked(event) {
+    console.log(123)
+    console.info(event)
+  }
 })

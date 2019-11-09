@@ -191,12 +191,5 @@ width: 100%;
   width:100% ;
   height:90%;
   z-index:900;
-  position:absolute;
-}
-.btn{
-  border : 1px;
-  background-color: #FFCC00;
-  width:180rpx;
-  padding-right:20rpx;
   position:fixed;
 }

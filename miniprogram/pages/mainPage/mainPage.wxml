@@ -1,14 +1,15 @@
 <!--index.wxml-->
-<view class="container" style = "justify-content:right">
+<view class="container" bindtap="onBgImgClicked">
   <!-- Buttons here -->
-<view class = "upperlayer">
-  <button class = "btn"  bindtap = "naviToSetting()" style = "height: {{btnHeight}}rpx;right:{{btnRight}}rpx; margin-top:{{btnMarginTop}}rpx"> XXXXX </button>
-</view>
-<!-- background img -->
-<view style="width:{{winWidth}}px;height:{{imgHeight}}px;" class = "bgimg"> 
-    <image src="/images/terp_shell.png" style = "height:{{imgHeight}}px; width:{{imgWidth}}px; float:right" />  
-</view>
-
+  <view class="upperlayer">
+      <image src="/images/terp_shell_btn1.png" style="height:{{btnHeight}}px; width:{{btnWidth}}px; float:right; margin-right:{{btnMarginRight}}px; margin-top:{{btnMarginTop1}}px" />
+      <!-- <image src="/images/terp_shell_btn1.png" style="height:{{btnHeight}}px; width:{{btnWidth}}px; float:right; margin-right:{{btnMarginRight}}px; margin-top:{{btnMarginTop2}}px" />
+      <image src="/images/terp_shell_btn1.png" style="height:{{btnHeight}}px; width:{{btnWidth}}px; float:right; margin-right:{{btnMarginRight}}px; margin-top:{{btnMarginTop3}}px" /> -->
+  </view>
+  <!-- background img -->
+  <view style="width:{{winWidth}}px;height:{{imgHeight}}px;" class="bgimg">
+    <image src="/images/terp_shell.png" style="height:{{imgHeight}}px; width:{{imgWidth}}px; float:right"/>
+  </view>
 
   <!--Navigation Bar-->
   <view class="navbars_container">
