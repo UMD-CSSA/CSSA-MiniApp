@@ -181,8 +181,22 @@ width: 100%;
   z-index: -900;
   float:right;
 }
-.canvas
+.btngroup
 {
   position:absolute;
+  margin-top:260rpx;
+  align-items: center;
+}
+.upperlayer{
+  width:100% ;
+  height:90%;
   z-index:900;
+  position:absolute;
+}
+.btn{
+  border : 1px;
+  background-color: #FFCC00;
+  width:180rpx;
+  padding-right:20rpx;
+  position:fixed;
 }

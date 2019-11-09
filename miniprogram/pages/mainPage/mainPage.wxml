@@ -1,16 +1,20 @@
 <!--index.wxml-->
-<view class="container">
-   <view style="width:{{winWidth}}px;height:{{winHeight * 0.9}}px;" class = "bgimg"> 
-    <image src="/images/terp_shell.png" style = "height:{{imgHeight}}px; width:{{imgWidth}}px; float:right" />
-  </view>
-  <view class = "canvas" bindtap = "naviToSetting()">
-    <canvas style = "border:1px" canvas-id="myCanvas"></canvas>
-  </view>
+<view class="container" style = "justify-content:right">
+  <!-- Buttons here -->
+<view class = "upperlayer">
+  <button class = "btn"  bindtap = "naviToSetting()" style = "height: {{btnHeight}}rpx;right:{{btnRight}}rpx; margin-top:{{btnMarginTop}}rpx"> XXXXX </button>
+</view>
+<!-- background img -->
+<view style="width:{{winWidth}}px;height:{{imgHeight}}px;" class = "bgimg"> 
+    <image src="/images/terp_shell.png" style = "height:{{imgHeight}}px; width:{{imgWidth}}px; float:right" />  
+</view>
+
+
   <!--Navigation Bar-->
   <view class="navbars_container">
     <view class="navbars">
       <view class="navbar">
-        <navigator url="../index/index" hover-class="navigator-hover">
+        <navigator url="mainPage" hover-class="navigator-hover">
           <view class="nav_img">
             <icon class="iconfont icon-shouye"></icon>
           </view>
