@@ -2,7 +2,7 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": false,
 		"enhance": true,
 		"postcss": true,
@@ -10,10 +10,10 @@
 		"newFeature": true,
 		"coverView": true,
 		"nodeModules": true,
-		"autoAudits": true,
+		"autoAudits": false,
 		"uglifyFileName": true,
 		"checkInvalidKey": true,
-		"checkSiteMap": true,
+		"checkSiteMap": false,
 		"uploadWithSourceMap": true,
 		"babelSetting": {
 			"ignore": [],
@@ -24,7 +24,7 @@
 	},
 	"appid": "wxdde2bd5ddd45d234",
 	"projectname": "CSSA-MiniApp",
-	"libVersion": "2.8.3",
+	"libVersion": "2.9.0",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {

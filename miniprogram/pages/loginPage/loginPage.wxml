@@ -1,0 +1,13 @@
+<!--pages/loginPage/loginPage.wxml-->
+
+<button type="default" bindtap="onLoginClicked"> login </button>
+
+<!--**IMPORTANT!** User info must be fetched from WeChat server in this way
+  (through a button with `open-type="getUserInfo"` and bind a function to
+  `bindgetuserinfo` field)!!!!!!
+-->
+<button type="default" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onUserInfoReturned"> getUserInfo </button>
+
+<image src="{{avatarUrl}}" mode="aspectFit" lazy-load="true" class="fill-width" />
+
+<text class="text-center"> {{nickName}} </text>

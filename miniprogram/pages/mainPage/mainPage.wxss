@@ -1,0 +1,2 @@
+/* miniprogram/pages/mainPage/mainPage.wxss */
+@import "../../style/style_sheet.wxss";
