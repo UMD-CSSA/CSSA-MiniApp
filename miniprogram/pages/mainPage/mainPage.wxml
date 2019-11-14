@@ -2,7 +2,7 @@
 <view class="container" bindtap="onClicked">
   <!-- background img -->
   <view style="width:{{winWidth}}px;height:{{imgHeight}}px;" class="bgimg">
-    <image src="/images/terp_shell.png" style="height:{{imgHeight}}px; width:{{imgWidth}}px; float:right"/>
+    <image src="/images/terp_shell_2.png" style="height:{{imgHeight}}px; width:{{imgWidth}}px; float:right"/>
   </view>
 
   <!--Navigation Bar-->
