@@ -1,0 +1,59 @@
+<!--pages/activitylist/activitylist.wxml-->
+<view class="container">
+ 
+  <view class="page_section">
+      <view class="top">
+        <text id="title">Activity List</text>
+      </view>
+  </view>    
+
+      
+	<view class="dptList">
+
+			 <navigator url="">
+				
+        <view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				
+			</navigator>
+     
+      <navigator url="">
+			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>   
+				<view class="deptName">someDept</view>
+				
+			</navigator>
+		
+
+
+			<navigator url="">
+			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				
+			</navigator>
+
+			<navigator url="">
+			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				
+			</navigator>
+
+      <navigator url="">
+			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				
+			</navigator>
+
+			<navigator url="">
+			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
+				<view class="deptName">someDept</view>
+				
+			</navigator>
+
+
+		
+	</view>
+  
+
+
+
+</view>
