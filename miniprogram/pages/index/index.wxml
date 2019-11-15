@@ -15,85 +15,11 @@
 
   <button bindtap="upload_pdf"> test </button>
 
-  <!-- 用户 openid -->
-  <view class="userinfo">
-    <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" class="userinfo-avatar" style="background-image: url({{avatarUrl}})"></button>
-    <view>
-      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
-    </view>
-  </view>
-
-
-  <!-- 上传图片 -->
-  <view class="uploader">
-    <view class="uploader-text" bindtap="doUpload">
-      <text>上传图片</text>
-    </view>
-    <view class="uploader-container" wx:if="{{imgUrl}}">
-      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
-    </view>
-  </view>
-
-
-  <!-- 操作数据库 -->
-  <view class="uploader">
-    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
-      <text>前端操作数据库</text>
-    </navigator>
-  </view>
-
-  <!-- 即时通信 -->
-  <view class="uploader">
-    <navigator url="../im/im" open-type="navigate" class="uploader-text">
-      <text>即时通信 Demo</text>
-    </navigator>
-  </view>
-
-  <!-- 新建云函数 -->
-  <view class="uploader">
-    <navigator url="../addFunction/addFunction" open-type="navigate" class="uploader-text">
-      <text>快速新建云函数</text>
-    </navigator>
-  </view>
-
-  <!-- 云调用 -->
-  <view class="uploader">
-    <navigator url="../openapi/openapi" open-type="navigate" class="uploader-text">
-      <text>云调用</text>
-    </navigator>
-  </view>
-
-<!-- 导航栏1.0 -->
+  
 </view>
-<view class="navbars_container">
-  <view class="navbars">
-
-
-    <view class="navbar">
-      <navigator url="../index/index" hover-class="navigator-hover">
-        <view class="nav_img">
-          <icon class="iconfont icon-shouye"></icon>
-        </view>
-        <view class="nav_text"> \n Mainpage</view>
-      </navigator>
-    </view>
-
-    <view class="navbar">
-      <navigator url="../users/users" hover-class="navigator-hover">
-        <view class="nav_img">
-          <icon class="iconfont icon-fenleiorguangchangorqita"></icon>
-        </view>
-        <view class="nav_text"> \n Users</view>
-      </navigator>
-    </view>
-
-    <view class="navbar">
-      <navigator url="../activities/activities" hover-class="navigator-hover">
-        <view class="nav_img">
-          <icon class="iconfont icon-shezhi"></icon>
-        </view>
-        <view class="nav_text"> \n Activities</view>
-      </navigator>
-    </view>
-  </view>
+<!-- 导航栏1.0 -->
+<import src="../../tpls/nav_bar_template/template.wxml" />
+<view>
+<!-- 导航栏1.0 -->
+<template is = "A"/>
 </view>

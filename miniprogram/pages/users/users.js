@@ -5,14 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    test: '<view class="navbars"> < view class= "navbar" > <navigator url="../index/index" hover-class="navigator-hover"><view class="nav_img"><icon class="iconfont icon-shouye"></icon></view><view class="nav_text"> \n Mainpage</view></navigator></view><view class="navbar"><navigator url="../users/users" hover-class="navigator-hover"><view class="nav_img"><icon class="iconfont icon-fenleiorguangchangorqita"></icon></view><view class="nav_text"> \n Users</view></navigator></view><view class="navbar"><navigator url="../activities/activities" hover-class="navigator-hover"><view class="nav_img"><icon class="iconfont icon-shezhi"></icon></view><view class="nav_text"> \n Activities</view></navigator></view> </view>'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var curr_test = data.test;
+    this.setData({
+      test: curr_test
+    })
+    
   },
 
   /**

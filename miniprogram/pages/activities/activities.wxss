@@ -1,1 +1,12 @@
-/* miniprogram/pages/activities/activities.wxss */
+@import "../../tpls/nav_bar_template/template.wxss"/* miniprogram/pages/activities/activities.wxss */
+.bg_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.test_pic{
+ width: 100%;
+    height: 100%;
+}
