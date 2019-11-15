@@ -19,7 +19,7 @@
       </view>
 
       <view class="navbar">
-        <navigator url="../users/users" hover-class="navigator-hover">
+        <navigator url="../activityList/activitylist" hover-class="navigator-hover">
           <view class="nav_img">
             <icon class="iconfont icon-fenleiorguangchangorqita"></icon>
           </view>

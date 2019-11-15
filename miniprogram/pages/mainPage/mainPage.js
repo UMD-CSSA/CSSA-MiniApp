@@ -41,7 +41,6 @@ Page({
       btnMarginTop4: _imgHeight / 5 + _btnHeight * 11 / 10 * 3,
     })
   },
-
   onClicked(event) {
     if (!event.detail)
       getApp().onError("evemt.detail not found!")
@@ -54,7 +53,9 @@ Page({
       && this.data.winWidth - x > this.data.btnMarginRight) {
 
       if (y < this.data.btnMarginTop2 && y > this.data.btnMarginTop1) {
-        console.warn("Button 1!")
+        wx.navigateTo({
+          url: '../departmentIntro/departmentIntro',
+        })
       }
 
       else if (y < this.data.btnMarginTop3 && y > this.data.btnMarginTop2) {
