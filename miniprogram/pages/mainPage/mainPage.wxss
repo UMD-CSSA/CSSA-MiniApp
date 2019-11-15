@@ -7,16 +7,6 @@ page {
   justify-content: flex-start;
 }
 
-/**image slider**/
-.swiper {
-  height: 400rpx;
-  width: 100%;
-}
-.swiper image {
-  height: 100%;
-  width: 100%;
-}
-
 .userinfo, .uploader, .tunnel {
   margin-top: 40rpx;
   height: 140rpx;
@@ -55,7 +45,7 @@ page {
   border: none;
 }
 
-.uploader, .tunnel {
+/* .uploader, .tunnel {
   height: auto;
   padding: 0 0 0 40rpx;
   flex-direction: column;
@@ -68,9 +58,9 @@ page {
   line-height: 52px;
   font-size: 34rpx;
   color: #007aff;
-}
+} */
 
-.uploader-container {
+/* .uploader-container {
   width: 100%;
   height: 400rpx;
   padding: 20rpx 20rpx 20rpx 0;
@@ -84,9 +74,9 @@ page {
 .uploader-image {
   width: 100%;
   height: 360rpx;
-}
+} */
 
-.tunnel {
+/* .tunnel {
   padding: 0 0 0 40rpx;
 }
 
@@ -99,9 +89,9 @@ page {
   justify-content: space-between;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
+} */
 
-.tunnel-text:first-child {
+/* .tunnel-text:first-child {
   border-top: none;
 }
 
@@ -113,9 +103,9 @@ page {
 
 .disable {
   color: #888;
-}
+} */
 
-.service {
+/* .service {
   position: fixed;
   right: 40rpx;
   bottom: 40rpx;
@@ -128,7 +118,7 @@ page {
   align-content: center;
   justify-content: center;
   transition: all 300ms ease;
-}
+} */
 
 .service-button {
   position: absolute;
@@ -180,6 +170,8 @@ width: 100%;
   position:relative;
   z-index: -900;
   float:right;
+  top:0px;
+  left: 0px;
 }
 .btngroup
 {
@@ -192,4 +184,13 @@ width: 100%;
   height:90%;
   z-index:900;
   position:fixed;
+}
+
+.colorBall{
+  width:100%;
+  height:100%;
+  z-index:-901;
+  position:absolute;
+  top:0px;
+  left: 0px;
 }

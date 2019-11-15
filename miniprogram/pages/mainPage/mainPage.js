@@ -66,5 +66,41 @@ Page({
         console.warn("Button 3!")
       }
     }
+  },
+  /* Color Ball*/ 
+  loadColorBall(){
+    const ctx = wx.createCanvasContext("colorBall")
+    const res = wx.getSystemInfoSync()
+    const winHeight = res.windowHeight
+    const winWidth = res.windowWidth
+    /* ball constructor */ 
+    var Ball = function (x, y, vx, vy, radius, color) {
+      this._x = x
+      this._y = y
+      this.x = x
+      this.y = y
+      this.vx = vx
+      this.vy = vy
+      this.radius = radius
+      this.color = color
+    }
+    // ball position
+    Ball.prototype.draw = function () {
+      ctx.beginPath()
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2)
+      ctx.fillStyle = this.color
+      ctx.fill()
+    }
+    // ball move
+    Ball.prototype.run = function (t) {
+      if (this.x > canvas.width || this.y < 0) {
+        this.x = this._x
+        this.y = this._y
+      }
+      this.x += t * this.vx
+      this.y += t * this.vy
+      this.draw()
+    }
+    
   }
 })
