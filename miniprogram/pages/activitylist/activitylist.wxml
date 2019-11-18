@@ -47,13 +47,12 @@
 			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
 				<view class="deptName">someDept</view>
 				
-			</navigator>
-
-
-		
+			</navigator>	
 	</view>
-  
+</view>
 
-
-
+<import src="../../tpls/nav_bar_template/template.wxml" />
+<view>
+<!-- 导航栏1.0 -->
+<template is = "navi_bar"/>
 </view>

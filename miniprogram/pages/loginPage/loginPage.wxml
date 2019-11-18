@@ -13,3 +13,10 @@
 
   <text class="text-center"> {{nickName}} </text>
 </view>
+
+<import src="../../tpls/nav_bar_template/template.wxml" />
+<!--navi bar-->
+<view>
+<!-- 导航栏1.0 -->
+<template is = "navi_bar"/>
+</view>

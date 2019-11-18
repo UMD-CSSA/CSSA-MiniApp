@@ -1,6 +1,9 @@
 /* pages/activitylist/activitylist.wxss */
+
+/* import navi bar here*/
+@import "../../tpls/nav_bar_template/template.wxss";
+
 .top{
-  
     width: 520rpx;
     height: 30rpx;
     line-height: 30rpx;
