@@ -19,8 +19,8 @@
 
  <view class="individual">
   
-  <view class="job"><text>彭思远Kevin</text></view>
-  <view class="name"><text>朱雨豪</text></view>
+  <view class="job"><text>副部长</text></view>
+  <view class="name"><text>彭思远Kevin</text></view>
   <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
   <view class="saying"><text>wu</text></view>
 
