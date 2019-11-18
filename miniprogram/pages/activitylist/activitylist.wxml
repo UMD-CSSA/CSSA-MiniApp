@@ -11,7 +11,7 @@
 	<view class="dptList">
 
 			 <navigator url="">
-				<view class="dptpro_img"><image mode="aspectFill" src="/images/微信图片_20191110171712.jpg"             alt=""></image></view>
+				<view bindtap="toast" class="dptpro_img"><image mode="aspectFill" src="/images/微信图片_20191110171712.jpg" alt=""></image></view>
 				</navigator>
       
       <view class="deptName">狼人杀</view>

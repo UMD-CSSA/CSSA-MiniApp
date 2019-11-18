@@ -1,4 +1,4 @@
-// pages/departmentIntro/departmentIntro.js
+// miniprogram/pages/Userconsole.js
 Page({
 
   /**
