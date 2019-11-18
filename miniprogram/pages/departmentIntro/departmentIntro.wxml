@@ -7,49 +7,57 @@
         <text>\n Department Introduction</text>
       </view>
   </view>    
-
+ <view class="line"></view>
       
 	<view class="dptList"> 
 
 
 
-			<navigator class="dpt_button" url="">
+			<navigator class="dpt_button" url="../departmentIntro/board/board">
 				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
-				<view class="deptName">someDept</view>
+				<view class="deptName">E-Board</view>
 				
 			</navigator>
 
 
-			<navigator url="">
+			<navigator url="../departmentIntro/secretary/secretary">
 				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
-				<view class="deptName">someDept</view>
+				<view class="deptName">秘书团</view>
 				
 			</navigator>
 
 
-			<navigator class="dpt_button" url="">
+			<navigator class="dpt_button" url="../departmentIntro/externalRelationship/externalRelation">
 				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
-				<view class="deptName">someDept</view>
+				<view class="deptName">外联部</view>
 				
 			</navigator>
 
-			<navigator url="">
+			<navigator url="../departmentIntro/literaryGroup/literaryGroup">
 				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
-				<view class="deptName">someDept</view>
+				<view class="deptName">文体团</view>
 				
 			</navigator>
 
-      <navigator class="dpt_button" url="">
+      <navigator class="dpt_button" url="../departmentIntro/organizationDepartment/organization">
 				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
-				<view class="deptName">someDept</view>
+				<view class="deptName">组织部</view>
 				
 			</navigator>
 
-			<navigator url="">
+			<navigator url="../departmentIntro/propagandaDepartment/propaganda">
 				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
-				<view class="deptName">someDept</view>
+				<view class="deptName">宣传部</view>
 				
 			</navigator>
+
+      <navigator class="dpt_button" url="../departmentIntro/technology/technology">
+				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
+				<view class="deptName">技术部</view>
+				
+			</navigator>
+
+      
 
 		
 	</view>

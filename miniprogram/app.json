@@ -1,8 +1,14 @@
 {
   "pages": [
     "pages/mainPage/mainPage",
-    "pages/loginPage/loginPage",
-    "pages/departmentIntro/departmentIntro"
+    "pages/loginPage/loginPage",    "pages/departmentIntro/departmentIntro",
+    "pages/departmentIntro/board/board",
+    "pages/departmentIntro/secretary/secretary",
+    "pages/departmentIntro/externalRelationship/externalRelation",
+    "pages/departmentIntro/literaryGroup/literaryGroup",
+    "pages/departmentIntro/organizationDepartment/organization",
+    "pages/departmentIntro/propagandaDepartment/propaganda",
+    "pages/departmentIntro/technology/technology"
 ],
   "window": {
     "backgroundColor": "#F6F6F6",
