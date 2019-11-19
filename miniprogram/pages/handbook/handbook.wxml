@@ -2,7 +2,7 @@
 
 
 <!-- 导航栏1.0 -->
-<template is = "A"/>
+<template is = "navi_bar"/>
 
 <view class = "s_container" style="height:auto">
 <view>
