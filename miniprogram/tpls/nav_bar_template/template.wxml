@@ -2,7 +2,7 @@
   <view class="navbars_container">
     <view class="navbars">
       <view class="navbar">
-        <navigator url="mainPage" hover-class="navigator-hover">
+        <navigator url="../mainPage/mainPage" hover-class="navigator-hover">
           <view class="nav_img">
             <icon class="iconfont icon-shouye"></icon>
           </view>

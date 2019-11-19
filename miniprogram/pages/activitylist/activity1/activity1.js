@@ -1,19 +1,16 @@
 // miniprogram/pages/activitylist/activity1/activity1.js
 var app = getApp();
-var WxAutoImage = require('../WxAutoImage.js');
+var WxAutoImage = require('../../util/WxAutoImage.js');
 Page({
-
-  /**
-   * Page initial data
-   */
   data: {
 
   },
-
-  /**
-   * Lifecycle function--Called when page load
-   */
-  onLoad: function (e) {
-    console.log(WxAutoImage.wxAutoImageCal(e))
+  onLoad: function () {
+    console.log('onLoad')
+    var that = this
   },
+  cusImageLoad: function (e) {
+    var that = this;
+    that.setData(WxAutoImage.wxAutoImageCal(e));
+  }
 })
