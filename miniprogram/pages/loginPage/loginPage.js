@@ -7,7 +7,6 @@ Page({
   data: {
     nickName: "Nick Name Here!"
   },
-
   /**
      * Lifecycle, called on render finished.
      */

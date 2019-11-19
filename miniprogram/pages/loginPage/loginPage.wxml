@@ -19,4 +19,3 @@
 <!-- 导航栏1.0 -->
 <template is = "navi_bar"/>
 </view>
-

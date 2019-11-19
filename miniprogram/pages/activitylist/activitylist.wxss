@@ -1,5 +1,4 @@
 /* pages/activitylist/activitylist.wxss */
-
 /* import navi bar here*/
 @import "../../tpls/nav_bar_template/template.wxss";
 
@@ -12,8 +11,8 @@
   font-size: 30rpx;
   margin: 27rpx auto;
   text-align:center;
-    
 }
+
 #title{
   font-size: 35rpx;
   margin-bottom: 5rpx;
@@ -23,15 +22,12 @@
   margin-top: 5rpx; 
 }
 .dptList navigator{
- 
     width: 700rpx;
     float: center;
     vertical-align: top;
     background-color: lightcyan;
     border: 1px solid lightcyan;
     margin-top: 40rpx;
-    
-   
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
@@ -44,7 +40,7 @@
 }
 
 .deptName{
-  text-align: center
+  text-align: center;
   background-color: rgba(230, 230, 230, 0.5);
   height: 80rpx;
   font-size: 50;

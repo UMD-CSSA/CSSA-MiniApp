@@ -59,7 +59,9 @@ Page({
       }
 
       else if (y < this.data.btnMarginTop3 && y > this.data.btnMarginTop2) {
-        console.warn("Button 2!")
+        wx.navigateTo({
+          url: '../handbook/handbook',
+        })
       }
 
       else if (y < this.data.btnMarginTop4 && y > this.data.btnMarginTop3) {
@@ -104,3 +106,4 @@ Page({
     
   }
 })
+

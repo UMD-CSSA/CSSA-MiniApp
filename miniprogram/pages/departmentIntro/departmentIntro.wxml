@@ -10,9 +10,6 @@
  <view class="line"></view>
       
 	<view class="dptList"> 
-
-
-
 			<navigator class="dpt_button" url="../departmentIntro/eboard/eboard">
 				<view class="dptpro_img"><image src="/images/cssa_logo.png" alt=""></image></view>
 				<view class="deptName">E-Board</view>
@@ -56,13 +53,5 @@
 				<view class="deptName">技术部</view>
 				
 			</navigator>
-
-      
-
-		
 	</view>
-  
-
-
-
 </view>
