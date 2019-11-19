@@ -1,0 +1,66 @@
+<!--miniprogram/pages/departmentIntro/board/board.wxml-->
+
+<view class="container">
+ <view class="logo"><image src="/images/cssa_logo.png" alt=""></image></view>
+ <view class="title"><text>主席团</text></view>
+  <view class="line"></view>
+ <view class = "deptintro"><text>CSSA</text></view>
+
+
+
+
+
+ <view class="individual">
+ 
+  <view class="job"><text>主席</text></view>
+  <view class="name"><text>矫怡然（Rachel)</text></view>
+  <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
+  <view class="saying">有光芒但不刺眼，有棱角却不伤人。
+  江南无所有，聊赠一枝春。
+  做个平凡又闪亮的人。
+
+ </view>
+ </view>
+
+ <view class="individual">
+  
+  <view class="job"><text>副主席</text></view>
+  <view class="name"><text>薄海昭 （Jenny）</text></view>
+  <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
+  <view class="saying">wu</view>
+
+ </view>
+
+ <view class="individual">
+  
+  <view class="job"><text>副主席</text></view>
+  <view class="name"><text>孙闻 （Steven）</text> </view>
+  <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
+  <view class="saying">wu</view>
+
+ </view>
+ 
+ <view class="individual">
+  
+  <view class="job"><text>副主席</text></view>
+  <view class="name"><text>虞智轩</text> </view>
+  <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
+  <view class="saying">wu</view>
+
+ </view>
+
+ <view class="individual">
+  
+  <view class="job"><text>秘书长（兼财务主管）</text></view>
+  <view class="name"><text>赵心怡</text> </view>
+  <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
+  <view class="saying">wu</view>
+
+ </view>
+
+ <view class="logo"><image src="/images/cssa_logo.png" alt=""></image></view>
+
+
+</view>
+
+

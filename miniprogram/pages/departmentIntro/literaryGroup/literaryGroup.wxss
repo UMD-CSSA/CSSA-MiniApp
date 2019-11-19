@@ -1,0 +1,65 @@
+/* miniprogram/pages/departmentIntro/literaryGroup/literaryGroup.wxss *//* miniprogram/pages/departmentIntro/externalRelationship/externalRelation.wxss */
+/* miniprogram/pages/departmentIntro/organizationDepartment/organization.wxss */
+/* miniprogram/pages/departmentIntro/board/board.wxss */
+
+
+/* Top part*/
+.title{
+  font-size: 50rpx;
+  margin-bottom: 5rpx;
+}
+.deptintro{
+  margin: 10rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  font-size: 25rpx;
+  text-indent: 50rpx;
+}
+
+.line {
+    position: relative;
+    width: 90%;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 0;
+  
+}
+/* individual*/
+.individual{
+  width: 80%;
+  
+   text-align: center;
+   border: 1px solid #f2f2f2;
+    background-color: white;
+    margin-bottom: 20rpx;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30rpx;
+    
+    border-radius: 10px;
+    padding: 20rpx;
+    padding-top: 10rpx;
+}
+.photo image{
+    width: 250rpx;
+    height: 250rpx;
+    margin:10rpx;
+  
+}
+.job{
+  font-size: 35rpx;
+}
+.name{
+  font-size: 25rpx;
+}
+.saying{
+  font-size: 25rpx;
+}
+.logo image{
+   width: 100rpx;
+    height: 100rpx;
+    margin:10rpx;
+}
+.logo{
+  margin: auto;
+}
