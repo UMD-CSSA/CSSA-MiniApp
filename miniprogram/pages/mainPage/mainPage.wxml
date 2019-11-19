@@ -24,7 +24,7 @@
       </view>
 
       <view class="navbar">
-        <navigator url="../activityList/activitylist" hover-class="navigator-hover">
+        <navigator url="../activitylist/activitylist" hover-class="navigator-hover">
           <view class="nav_img">
             <icon class="iconfont icon-fenleiorguangchangorqita"></icon>
           </view>
@@ -39,8 +39,11 @@
           </view>
           <view class="nav_text"> \n 设置</view>
         </navigator>
-
       </view>
     </view>
+  
+  
+  
+  
   </view>
 </view>

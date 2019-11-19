@@ -1,4 +1,6 @@
-@import "../../tpls/nav_bar_template/template.wxss";
+/* miniprogram/pages/mainPage/mainPage.wxss */
+@import "../../style/style_sheet.wxss";
+
 /**index.wxss**/
 
 page {
@@ -136,6 +138,36 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+.navbars_container{
+ position: auto;
+width: 100%;
+
+}
+
+.navbars{
+  display: flex;
+  flex-direction:space-bewtween;
+}
+
+
+.navbar{
+  width: 300rpx;
+  height: 150rpx;
+}
+
+.nav_img
+{
+  display: flex;
+  justify-content: center;
+}
+
+.nav_text
+{
+  display: flex;
+  justify-content: center;
+}
+
 .bgimg
 {
   position:relative;
