@@ -1,5 +1,5 @@
 <!--pages/activitylist/activitylist.wxml-->
-<view class="container">
+<view class="container" style="position: relative">
  
   <view class="page_section">
       <view class="top">
@@ -43,7 +43,5 @@
 </view>
 
 <import src="../../tpls/nav_bar_template/template.wxml" />
-<view>
 <!-- 导航栏1.0 -->
 <template is = "navi_bar"/>
-</view>
