@@ -1,10 +1,9 @@
 {
   "pages": [
-    "pages/activitylist/activitylist",
     "pages/mainPage/mainPage",
     "pages/loginPage/loginPage",
-    "pages/userconsole/Userconsole"
-  ],
+    "pages/departmentIntro/departmentIntro"
+],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
