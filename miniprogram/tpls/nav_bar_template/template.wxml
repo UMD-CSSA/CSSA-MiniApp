@@ -1,0 +1,33 @@
+<template name="navi_bar" >
+  <view class="navbars_container">
+    <view class="navbars">
+
+    <view class="navbar">
+      <navigator url="mainPage" hover-class="navigator-hover">
+        <view class="nav_img">
+          <icon class="iconfont icon-shouye"></icon>
+        </view>
+        <view class="nav_text"> \n 主页</view>
+      </navigator>
+    </view>
+
+    <view class="navbar">
+      <navigator url="../activitylist/activitylist" hover-class="navigator-hover">
+        <view class="nav_img">
+          <icon class="iconfont icon-fenleiorguangchangorqita"></icon>
+        </view>
+        <view class="nav_text"> \n 活动</view>
+      </navigator>
+    </view>
+
+    <view class="navbar">
+      <navigator url="../loginPage/loginPage" hover-class="navigator-hover">
+        <view class="nav_img">
+          <icon class="iconfont icon-shezhi"></icon>
+        </view>
+        <view class="nav_text"> \n 设置</view>
+      </navigator>
+    </view>
+  </view>
+  </view>
+</template>

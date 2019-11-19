@@ -4,7 +4,8 @@
 
 ![Codacy grade](https://api.codacy.com/project/badge/Grade/8126695323e746c48e84aacc7f4fbd30?isInternal=true)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/UMD-CSSA/CSSA-MiniApp.svg)
-![GitHub issues](https://img.shields.io/github/contributors/UMD-CSSA/CSSA-MiniApp)
+<<<<<<< HEAD
+![GitHub contributors](https://img.shields.io/github/contributors/UMD-CSSA/CSSA-MiniApp)
 ![GitHub issues](https://img.shields.io/github/issues/UMD-CSSA/CSSA-MiniApp.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UMD-CSSA/CSSA-MiniApp.svg)
 ![GitHub license](https://img.shields.io/github/license/UMD-CSSA/CSSA-MiniApp.svg)

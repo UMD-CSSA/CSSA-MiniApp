@@ -1,6 +1,6 @@
-/* pages/loginPage/loginPage.wxss */
-@import "../../style/style_sheet.wxss";
-.fill-square {
-  height: 750rpx;
-  width: 100%;
+/* import navi bar here*/
+@import "../../tpls/nav_bar_template/template.wxss";
+.fill-square{
+  width: 750rpx;
+  height:750rpx;
 }

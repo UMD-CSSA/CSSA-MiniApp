@@ -1,0 +1,80 @@
+<import src="../../tpls/nav_bar_template/template.wxml" />
+
+
+<!-- 导航栏1.0 -->
+<template is = "A"/>
+
+<view class = "s_container" style="height:auto">
+<view>
+<swiper class = "bg_box">
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-1.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-2.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-3.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-4.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-5.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-6.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-7.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-8.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+<swiper-item>
+<view class = "bg_box">
+<image class="test_pic" src="/result/CFH的副本-9.png" mode="aspectFit">
+</image>
+</view>
+</swiper-item>
+
+</swiper>
+</view>
+<view><button class="download_pdf" bindtap="upload_pdf"> 点击下载 </button></view>
+</view>
+
+
+
+

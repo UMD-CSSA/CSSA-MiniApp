@@ -1,0 +1,35 @@
+<!--miniprogram/pages/departmentIntro/propagandaDepartment/propaganda.wxml-->
+<!--miniprogram/pages/departmentIntro/organizationDepartment/organization.wxml-->
+<!--miniprogram/pages/departmentIntro/board/board.wxml-->
+
+<view class="container">
+ <view class="logo"><image src="/images/cssa_logo.png" alt=""></image></view>
+ <view class="title"><text>宣传部</text></view>
+  <view class="line"></view>
+ <view class = "deptintro"><text>CSSA</text></view>
+
+ <view class="individual">
+  
+  <view class="job"><text>副部长</text></view>
+  <view class="name"><text>吴宇飞</text></view>
+  <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
+  <view class="saying"><text>wu</text></view>
+
+ </view>
+
+ <view class="individual">
+  
+  <view class="job"><text>副部长</text></view>
+  <view class="name"><text>李昊然</text> </view>
+  <view class="photo"><image src="/images/cssa_logo.png" alt=""></image></view>
+  <view class="saying"><text>wu</text></view>
+
+ </view>
+
+
+ <view class="logo"><image src="/images/cssa_logo.png" alt=""></image></view>
+
+
+</view>
+
+

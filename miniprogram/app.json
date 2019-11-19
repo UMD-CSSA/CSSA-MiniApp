@@ -3,8 +3,16 @@
     "pages/mainPage/mainPage",
     "pages/loginPage/loginPage",
     "pages/departmentIntro/departmentIntro",
-    "pages/activityList/activitylist"
-  ],
+    "pages/departmentIntro/eboard/eboard",
+    "pages/departmentIntro/dpt_secretary/dpt_secretary",
+    "pages/departmentIntro/dpt_outreach/dpt_outreach",
+    "pages/departmentIntro/literaryGroup/literaryGroup",
+    "pages/departmentIntro/dpt_orgnizaiton/dpt_orgnizaiton",
+    "pages/departmentIntro/dpt_publicity/dpt_publicity",
+    "pages/departmentIntro/dpt_technology/dpt_technology",
+    "pages/activityList/activitylist",
+    "pages/activitylist/activity1/activity1"
+    ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
