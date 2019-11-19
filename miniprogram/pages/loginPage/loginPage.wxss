@@ -1,3 +1,7 @@
 /* import navi bar here*/
 @import "../../tpls/nav_bar_template/template.wxss";
+.fill-square{
+  width: 750rpx;
+  height:750rpx;
+}
 
