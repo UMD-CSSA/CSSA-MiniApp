@@ -1,0 +1,35 @@
+.navbars_container{ 
+ position: fixed; 
+ bottom: 0; 
+width: 100%; 
+background-color:rgb(255,255,255); 
+} 
+ 
+.navbars{ 
+display: flex; 
+  flex-direction:space-bewtween; 
+  width: 100%; 
+  height:100%; 
+ 
+} 
+ 
+ 
+.navbar{ 
+  /**image width: 300rpx; **/ 
+  margin-top: 2.5%; 
+ margin-bottom: 2.5%; 
+  width: 33%; 
+  height: 30%; 
+} 
+ 
+.nav_img 
+{ 
+  display: flex; 
+  justify-content: center; 
+} 
+ 
+.nav_text 
+{ 
+  display: flex; 
+  justify-content: center; 
+}

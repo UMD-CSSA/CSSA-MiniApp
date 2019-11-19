@@ -1,2 +1,2 @@
-/* pages/loginPage/loginPage.wxss */
-@import "../../style/style_sheet.wxss";
+/* import navi bar here*/
+@import "../../tpls/nav_bar_template/template.wxss";

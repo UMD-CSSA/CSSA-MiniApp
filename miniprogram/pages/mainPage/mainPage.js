@@ -1,75 +1,106 @@
-// miniprogram/pages/mainPage/mainPage.js
+//mainPage.js
 Page({
 
   /**
-   * Page data.
+   * Data in page
    */
   data: {
-    // [swiper] image slider
-    imgSliderUrls: [
-      'https://images.unsplash.com/photo-1558637845-c8b7ead71a3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80',
-      'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg',
-      'http://img04.tooopen.com/images/20130617/tooopen_21241404.jpg',
-      'http://img04.tooopen.com/images/20130701/tooopen_20083555.jpg',
-      'http://img02.tooopen.com/images/20141231/sy_78327074576.jpg'
-    ]
   },
 
-  /**
-   * [canvas] Load cssa logo.
-   */
-  // loadCanvasCssaLogo() {
-    // When canvas is not supported.
-    // if (!wx.createCanvasContext) {
-    //   getApp().onError('Feature [canvas] not supported! Please update WeChat!')
-    //   return
-    // }
+  onLoad() {
+    const res = wx.getSystemInfoSync()
+    if (!res) {
+      getApp().onError("wx.getSystemInfoSync() return nothing")
+    }
 
-    // wx.getSystemInfo({
-    //   success(res) {
-    //     console.log(res)
+    console.warn(res.windowWidth)
+    console.warn(res.windowHeight)
 
-    //     const screenWidth = res.screenWidth ?
-    //       res.screenWidth : res.windowWidth
-    //     const scaleFactor = screenWidth / 20
-    //     const cc = wx.createCanvasContext("cssa-logo")
+    const imgHeight = 1350
+    const btnHeight = 255
+    const scaleFactor = res.windowHeight * 9 / 10 / 1350
+    const aspectRatio = 5 / 9 // 1350:750
+    const btnAspectRatio = 40 / 51 // 200:255
 
-    //     cc.setStrokeStyle("#C00")
-    //     cc.setLineWidth(10)
-    //     cc.setLineCap("round")
-    //     cc.setLineJoin("round")
+    const _imgHeight = scaleFactor * imgHeight
+    const _imgWidth = _imgHeight * aspectRatio
+    const _btnHeight = scaleFactor * btnHeight
+    const _btnWidth = _btnHeight * btnAspectRatio
 
-    //     cc.rect(.5 * scaleFactor, .5 * scaleFactor, 19 * scaleFactor, 19 * scaleFactor)
-    //     cc.moveTo(18 * scaleFactor, 2 * scaleFactor)
-    //     cc.lineTo(2 * scaleFactor, 2 * scaleFactor)
-    //     cc.lineTo(2 * scaleFactor, 14 * scaleFactor)
-    //     cc.lineTo(18 * scaleFactor, 14 * scaleFactor)
-    //     cc.moveTo(10 * scaleFactor, 2 * scaleFactor)
-    //     cc.lineTo(10 * scaleFactor, 6 * scaleFactor)
-    //     cc.lineTo(18 * scaleFactor, 6 * scaleFactor)
-    //     cc.lineTo(18 * scaleFactor, 18 * scaleFactor)
-    //     cc.moveTo(2 * scaleFactor, 18 * scaleFactor)
-    //     cc.lineTo(10 * scaleFactor, 18 * scaleFactor)
-    //     cc.lineTo(10 * scaleFactor, 10 * scaleFactor)
-    //     cc.moveTo(2 * scaleFactor, 10 * scaleFactor)
-    //     cc.lineTo(18 * scaleFactor, 10 * scaleFactor)
-    //     cc.stroke()
-    //     cc.draw()
-    //   }
-    // })
-  // },
-
-  /**
-   * Lifecycle, called on render finished.
-   */
-  onReady() {
-    // this.loadCanvasCssaLogo()
+    this.setData({
+      winWidth: res.windowWidth,
+      winHeight: res.windowHeight,
+      imgHeight: _imgHeight,
+      imgWidth: _imgWidth,
+      btnHeight: _btnHeight,
+      btnWidth: _btnWidth,
+      btnMarginRight: _imgWidth * 3 / 25, // 90 / 750,
+      btnMarginTop1: _imgHeight / 5, // * 270 / 1350,
+      btnMarginTop2: _imgHeight / 5 + _btnHeight * 11 / 10,
+      btnMarginTop3: _imgHeight / 5 + _btnHeight * 11 / 5,
+      btnMarginTop4: _imgHeight / 5 + _btnHeight * 11 / 10 * 3,
+    })
   },
+  onClicked(event) {
+    if (!event.detail)
+      getApp().onError("evemt.detail not found!")
 
-  /**
-   * Called when an error callback was executed.
-   */
-  onError(msg) {
-    getApp().onError(msg)
+    // console.info(event.detail)
+    const x = event.detail.x
+    const y = event.detail.y
+
+    if (this.data.winWidth - x < this.data.btnMarginRight + this.data.btnWidth
+      && this.data.winWidth - x > this.data.btnMarginRight) {
+
+      if (y < this.data.btnMarginTop2 && y > this.data.btnMarginTop1) {
+        wx.navigateTo({
+          url: '../departmentIntro/departmentIntro',
+        })
+      }
+
+      else if (y < this.data.btnMarginTop3 && y > this.data.btnMarginTop2) {
+        console.warn("Button 2!")
+      }
+
+      else if (y < this.data.btnMarginTop4 && y > this.data.btnMarginTop3) {
+        console.warn("Button 3!")
+      }
+    }
+  },
+  /* Color Ball*/ 
+  loadColorBall(){
+    const ctx = wx.createCanvasContext("colorBall")
+    const res = wx.getSystemInfoSync()
+    const winHeight = res.windowHeight
+    const winWidth = res.windowWidth
+    /* ball constructor */ 
+    var Ball = function (x, y, vx, vy, radius, color) {
+      this._x = x
+      this._y = y
+      this.x = x
+      this.y = y
+      this.vx = vx
+      this.vy = vy
+      this.radius = radius
+      this.color = color
+    }
+    // ball position
+    Ball.prototype.draw = function () {
+      ctx.beginPath()
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2)
+      ctx.fillStyle = this.color
+      ctx.fill()
+    }
+    // ball move
+    Ball.prototype.run = function (t) {
+      if (this.x > canvas.width || this.y < 0) {
+        this.x = this._x
+        this.y = this._y
+      }
+      this.x += t * this.vx
+      this.y += t * this.vy
+      this.draw()
+    }
+    
   }
 })

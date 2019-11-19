@@ -1,13 +1,21 @@
 <!--pages/loginPage/loginPage.wxml-->
-
-<button type="default" bindtap="onLoginClicked"> login </button>
+<view>
+  <canvas canvas-id="cssa-logo" binderror="onError" class="fill-square"/>
+  <button type="default" bindtap="onLoginClicked"> login </button>
 
 <!--**IMPORTANT!** User info must be fetched from WeChat server in this way
   (through a button with `open-type="getUserInfo"` and bind a function to
   `bindgetuserinfo` field)!!!!!!
 -->
-<button type="default" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onUserInfoReturned"> getUserInfo </button>
+  <button type="default" open-type="getUserInfo" lang="zh_CN"     bindgetuserinfo="onUserInfoReturned"> getUserInfo </button>
 
-<image src="{{avatarUrl}}" mode="aspectFit" lazy-load="true" class="fill-width" />
+  <image src="{{avatarUrl}}" mode="aspectFit" lazy-load="true" class="fill-width" />
 
-<text class="text-center"> {{nickName}} </text>
+  <text class="text-center"> {{nickName}} </text>
+</view>
+
+<import src="../../tpls/nav_bar_template/template.wxml" />
+<view>
+<!-- 导航栏1.0 -->
+<template is = "navi_bar"/>
+</view>
