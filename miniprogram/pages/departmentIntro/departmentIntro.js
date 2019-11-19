@@ -1,7 +1,6 @@
 // pages/departmentIntro/departmentIntro.js
 Page({
 
-
   /**
    * 页面的初始数据
    */
@@ -64,11 +63,4 @@ Page({
   onShareAppMessage: function () {
 
   }
-  
-  ,toast: function () {
-    wx.navigateTo({
-      url: '../Userconsole'
-    })
-  },
-
 })

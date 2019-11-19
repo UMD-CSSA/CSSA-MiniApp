@@ -1,9 +1,11 @@
 {
   "pages": [
-    "pages/activitylist/activitylist",
+
     "pages/mainPage/mainPage",
     "pages/loginPage/loginPage",
-    "pages/userconsole/Userconsole"
+    "pages/departmentIntro/departmentIntro",
+    "pages/activityList/activitylist",
+    "pages/activitylist/activity1/activity1"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -13,45 +15,6 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "UMD CSSA WeApp"
-  },
-  "tabBar": {
-    "backgroundColor": "#F6F6F6",
-    "borderStyle": "black",
-    "color": "#696969",
-    "position": "bottom",
-    "selectedColor": "#C00",
-    "list": [
-      {
-        "pagePath": "pages/mainPage/mainPage",
-        "iconPath": "images/cssa_logo.png",
-        "selectedIconPath": "images/cssa_logo.png",
-        "text": "Page 1"
-      },
-      {
-        "pagePath": "pages/mainPage/mainPage",
-        "iconPath": "images/cssa_logo.png",
-        "selectedIconPath": "images/cssa_logo.png",
-        "text": "Page 2"
-      },
-      {
-        "pagePath": "pages/mainPage/mainPage",
-        "iconPath": "images/cssa_logo.png",
-        "selectedIconPath": "images/cssa_logo.png",
-        "text": "Page 3"
-      },
-      {
-        "pagePath": "pages/mainPage/mainPage",
-        "iconPath": "images/cssa_logo.png",
-        "selectedIconPath": "images/cssa_logo.png",
-        "text": "Page 4"
-      },
-      {
-        "pagePath": "pages/loginPage/loginPage",
-        "iconPath": "images/cssa_logo.png",
-        "selectedIconPath": "images/cssa_logo.png",
-        "text": "Page 5"
-      }
-    ]
   },
   "sitemapLocation": "sitemap.json"
 }

@@ -1,20 +1,8 @@
-<!--index.wxml-->
-<view class="container" bindtap="onClicked">
-  <view class = "colorBall">
-    <!-- background balls -->
-  <canvas canvas-id="colorBall" binderror="onError" class="fill-square" />
-  </view>
-  
-  <!-- background img -->
-  <view style="width:{{winWidth}}px;height:{{imgHeight}}px;" class="bgimg">
-    <image src="/images/terp_shell_2.png" style="height:{{imgHeight}}px; width:{{imgWidth}}px; float:right"/>
-  </view>
-
-  <!--Navigation Bar-->
+<template name="navi_bar" >
   <view class="navbars_container">
     <view class="navbars">
       <view class="navbar">
-        <navigator url="mainPage" hover-class="navigator-hover">
+        <navigator url="../mainPage/mainPage" hover-class="navigator-hover">
           <view class="nav_img">
             <icon class="iconfont icon-shouye"></icon>
           </view>
@@ -37,9 +25,9 @@
           <view class="nav_img">
             <icon class="iconfont icon-shezhi"></icon>
           </view>
-          <view class="nav_text"> \n 设置</view>
-        </navigator>
-      </view>
+        <view class="nav_text"> \n 设置</view>
+      </navigator>
     </view>
   </view>
-</view>
+  </view>
+</template>

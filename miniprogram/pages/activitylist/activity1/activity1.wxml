@@ -1,0 +1,4 @@
+<!--miniprogram/pages/activitylist/activity1/activity1.wxml-->
+<view> 
+   <image bindload="cusImageLoad" src="/images/狼人杀.jpg" style="width:{{imageWidth}}px;height:{{imageHeight}}px" />
+</view>
