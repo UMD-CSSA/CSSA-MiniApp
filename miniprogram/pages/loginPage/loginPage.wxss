@@ -1,0 +1,6 @@
+/* pages/loginPage/loginPage.wxss */
+@import "../../style/style_sheet.wxss";
+.fill-square {
+  height: 750rpx;
+  width: 100%;
+}

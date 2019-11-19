@@ -1,0 +1,18 @@
+<import src="../../tpls/nav_bar_template/template.wxml" />
+<!-- 导航栏1.0 -->
+<template is = "A"/>
+
+<!--index.wxml-->
+<view class="container" bindtap="onClicked">
+  <view class = "colorBall">
+    <!-- background balls -->
+  <canvas canvas-id="colorBall" binderror="onError" class="fill-square" />
+  </view>
+  
+  <!-- background img -->
+  <view style="width:{{winWidth}}px;height:{{imgHeight}}px;" class="bgimg">
+    <image src="/images/terp_shell_2.png" style="height:{{imgHeight}}px; width:{{imgWidth}}px; float:right"/>
+  </view>
+
+ 
+</view>
