@@ -44,7 +44,7 @@
 }
 
 .deptName{
-  text-align: center;
+  text-align: center
   background-color: rgba(230, 230, 230, 0.5);
   height: 80rpx;
   font-size: 50;
@@ -53,5 +53,6 @@
   justify-content: center;
   align-items: center;
   }
+
 
 

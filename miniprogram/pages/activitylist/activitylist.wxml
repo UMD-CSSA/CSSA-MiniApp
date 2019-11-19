@@ -9,7 +9,6 @@
 
       
 	<view class="dptList">
-
 			 <navigator url="activity1/activity1">
 				<view class="dptpro_img"><image mode="aspectFill" src="/images/狼人杀-title.jpg"alt=""></image></view>
 				</navigator>
@@ -17,21 +16,18 @@
       <view class="deptName">狼人杀</view>
       
       <navigator url="">
-			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>   
-				</navigator>
-		  
+			  <view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>   
+			</navigator>
       <view class="deptName">some activity</view>
 
       <navigator url="">
-			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
-				</navigator>
-
-        <view class="deptName">some activity</view>
+			  <view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
+			</navigator>
+      <view class="deptName">some activity</view>
 
 			<navigator url="">
-			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
-      </navigator>
-
+			  <view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
+       </navigator>
       <view class="deptName">some activity</view>
 
       <navigator url="">
@@ -39,11 +35,9 @@
 			</navigator>
 
       <view class="deptName">some activity</view>
-			
       <navigator url="">
 			<view class="dptpro_img"><image mode="aspectFill" src="/images/Background image.jpg" alt=""></image></view>
-				<view class="deptName">someDept</view>
-				
+			<view class="deptName">someDept</view>			
 			</navigator>	
 	</view>
 </view>

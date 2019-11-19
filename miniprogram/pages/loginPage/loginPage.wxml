@@ -7,7 +7,7 @@
   (through a button with `open-type="getUserInfo"` and bind a function to
   `bindgetuserinfo` field)!!!!!!
 -->
-  <button type="default" open-type="getUserInfo" lang="zh_CN"     bindgetuserinfo="onUserInfoReturned"> getUserInfo </button>
+ <button type="default" open-type="getUserInfo" lang="zh_CN"     bindgetuserinfo="onUserInfoReturned"> getUserInfo </button>
 
   <image src="{{avatarUrl}}" mode="aspectFit" lazy-load="true" class="fill-width" />
 
@@ -19,3 +19,4 @@
 <!-- 导航栏1.0 -->
 <template is = "navi_bar"/>
 </view>
+
